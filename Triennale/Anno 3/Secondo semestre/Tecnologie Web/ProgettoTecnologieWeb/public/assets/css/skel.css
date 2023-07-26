@@ -1,0 +1,87 @@
+/* -----------------------------------------------------------------------------------------------------------------------------
+    skel.css
+    --------
+    Contiene le proprietà di stile di base, ovvero che compongono gli elementi fondamentali della pagina (quelli che compongono
+    la grafica di base di tutte le pagine).
+    Contiene anche proprietà grafiche di stampo utilitaristico, ovvero che possono servire per alcuni elementi.
+------------------------------------------------------------------------------------------------------------------------------ */
+
+/* Proprietà in comune per tutti gli elementi HTML */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header della pagina */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    z-index: 99;
+}
+
+/*
+    Navigation Bar (navbar): basata sull'uso del Flexbox Layout (attivabile tramite il valore "flex" di display).
+    Viene usata per creare un layout dove gli elementi contenuti in questo si adattano in automatico al loro contenitore
+    padre. In questo caso viene usato perchè le due parti della navigation bar devono apparire sulla stessa riga (senza
+    spostarsi una sotto l'altra) e gli elementi contenuti devono essere allineati al centro.
+    Ognuna delle due colonne contenute occupa il 50% dello spazio.
+*/
+nav {
+    display: flex;
+    align-items: center; /* gli elementi contenuti saranno allineati verticalmente al centro */
+    text-decoration: none;
+}
+
+.navbar-logo-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.navbar-logo  {vertical-align: bottom; width: 170px; margin-right: 10px;}
+.navbar-title {display: inline;}
+
+/* per motivi di estetica, gli elementi di questo contenitore sono disposti da destra verso sinistra, anzichè il contrario */
+.navbar-links-container {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+/* lista che contiene le ancore della navbar che puntano alle altre pagine */
+nav ul    {display: flex; list-style: none;}
+nav ul li {margin-right: 20px;}
+
+/* l'ultimo elemento della lista non ordinata (UL, Unordered List) non avrà margine a destra, per evitare problemi grafici */
+nav ul li:last-child {margin-right: 0;}
+
+/* ancore della navigation bar */
+nav ul li a       {color: #fff; text-decoration: none; font-size: 1.1em;}
+nav ul li a:hover {text-decoration: underline;}
+
+/*
+    Footer: piè di pagina, è composto da due colonne disposte in orizzontale: per una visualizzazione ottimale
+    utilizzo la proprietà flex e allineo verticalmente gli elementi contenuti nelle due colonne al centro.
+*/
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Le colonne occupano ciascuna il 50% dello spazio (il footer ne contiene 2), e usano la proprietà float:left per essere ancorate
+verso sinistra, in modo tale che queste vengono inserite orizzontalmente all'interno del footer. */
+.footer-col {
+    width: 50%;
+    float: left;
+    padding: 5px 0;
+}
+
+/*
+    Text Right: Proprietà utilitaria che imposta l'allineamento del testo del tag a cui è applicata a destra.
+*/
+.text-right {text-align: right;}

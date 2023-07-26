@@ -1,0 +1,145 @@
+/* -----------------------------------------------------------------------------------
+    forms.css
+    ---------
+    Contiene gli stili grafici delle varie form che sono presenti sul sito web.
+----------------------------------------------------------------------------------- */
+
+/*
+    Proprietà grafiche di base di ogni tipologia di input presente nel sito web.
+ */
+input[type="text"], input[type="password"], input[type="tel"], input[type="datetime-local"], input[type="email"],
+input[type="file"], input[type="date"], textarea {
+    font-size: medium;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);   /* box-shadow imposta l'ombreggiatura dell'elemento */
+}
+
+/* aggiustamento grafico per i RadioButtons */
+input[type="radio"] {margin-bottom: 20px;}
+
+.sex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#idAzienda {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+/*
+    Wrapper: contenitore con sfondo personalizzato che si occupa di contenere il form-box, l'effettivo contenitore della form.
+ */
+.wrapper {
+    width: 100%;
+    margin: 50px auto;
+    background-image: url('../images/wrapper_wall.jpg');
+    background-position: bottom;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* lo sfondo del wrapper può variare in base al contesto in cui ci si trova */
+.wrapper-login {background-image: url('../images/login_wall.jpeg');}
+.wrapper-register {background-image: url("../images/register_wall.jpg");}
+
+/*
+    Form Box: è il contenitore della form, è contenuto all'interno del wrapper, che gli fa da background.
+    Due tipi di form box:
+    + form-box: form di default, concepito per essere usato su una sola colonna, i campi di testo sono trasparenti e ben
+      distanziati tra di loro; adatto per form piccoli, come quello di login.
+    + form-box-inputdialog: variante utilizzata per richiedere dati in input all'utente, adatto per essere diviso in due colonne,
+      contiene molti più campi di input, che hanno sfondo opaco e sono meno distanziati tra di loro, per risparmiare spezio.
+      Usato quando si richiedono molti dati di input ad un utente, ad esempio, per registrarsi o per inserire una nuova offerta.
+ */
+.form-box {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-height: min-content;    /* l'altezza massima corrisponde alla minima altezza sufficiente a visualizzare tutto il contenuto */
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(100px);   /* applica un filtro grafico allo sfondo (blur, sfoca il background che ha dietro) */
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    color: black;
+    padding: 70px 40px;
+    width: 430px;
+}
+
+/* titolo della form box */
+.form-box h2 {font-size: 30px;}
+
+/* è il box che contiene un elemento input */
+.input-box {
+    width: 100%;
+    margin: 20px 0;
+    text-align: left;
+    color: black;
+}
+
+/* proprietà grafiche dell'elemento stesso di input */
+.input-box .input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+/* proprietà grafiche della label dell'input */
+.input-box .label-input {
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 16px;
+}
+
+/* proprietà grafiche del form-box-inputdialog */
+.form-box-inputdialog {
+    padding: 40px;
+    width: 760px;
+}
+
+/* è la riga che contiene le due colonne in cui viene diviso il form */
+.form-box-inputdialog .form-row {display: flex; text-align: left; margin-top: 25px; margin-bottom: 15px;}
+
+/* colonne sinistra e destra */
+.form-box-inputdialog .form-left {width: 50%; padding-right: 18px;}
+.form-box-inputdialog .form-right {width: 50%; padding-left: 18px;}
+.form-box-inputdialog fieldset {border: none;}
+.form-box-inputdialog label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.form-box-inputdialog legend {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* contenitore che contiene un'immagine ottenuta dal server */
+.form-image-input-preview {max-height: 40%; max-width: 40%;}
+
+
+/*
+    Form Alternative: contiene un contenuto che è alternativo a quello che il form chiede, ad esempio, azioni contrarie
+    (es.: Register nel Login form, Login nel Register form).
+ */
+.form-alt-container  {margin-top: 30px;}
+.form-alt-link       {color: black; text-decoration: none;}
+.form-alt-link:hover {text-decoration: underline;}
