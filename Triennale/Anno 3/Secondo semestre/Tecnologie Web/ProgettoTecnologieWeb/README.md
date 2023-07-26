@@ -8,6 +8,7 @@ Il progetto è realizzato secondo l'architettura MVC
 I file relativi alla **View** sono contenuti all'interno della cartella *resources/views*. Si può importare un documento esterno da inserire come "parte fissa" attraverso il comando **@extends(indirizzofoglio)**, come viene fatto ad esempio per il footer, il nav e altri.
 
 Le regole CSS possono essere importate usando il semplice attributo "class". Le regole CSS sono tutte definite all'interno della cartella *public/assets/css*.
+Le interazioni JS possono essere importate usando il tag "script". Le interazioni JS sono tutte definite all'interno della cartella *public/assets/js*.
 
 ## Collegamento al DB
 I file relativi al **Model** sono contenuti all'interno della cartella *App/Models*. Usando gli opportuni comandi artisan, si possono creare tanti file quante le entità esistenti nella Base di Dati. Il file autogenerato, se desiderato, è modificabile.
