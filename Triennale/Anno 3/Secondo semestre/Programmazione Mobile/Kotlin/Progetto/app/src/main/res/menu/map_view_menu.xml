@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/menuitem"
+        android:icon="@drawable/baseline_menu_24"
+        android:title="@string/menu"
+        app:showAsAction="never">
+
+        <menu>
+
+        <item android:id="@+id/change_skiarea_item"
+            android:title="@string/change"
+            android:icon="@drawable/baseline_sync_24"/>
+
+        <item android:id="@+id/zoom_regulation_item"
+            android:title="@string/zoom"
+            android:icon="@drawable/baseline_zoom_in_24"/>
+
+        <item
+            android:id="@+id/about_us_item"
+            android:title="@string/info"
+            android:icon="@drawable/baseline_info_24"/>
+
+        </menu>
+
+
+    </item>
+
+
+
+</menu>

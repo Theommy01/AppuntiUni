@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomNavMapItem"
+        android:icon="@drawable/map"
+        android:title="@string/map" />
+    <item
+        android:id="@+id/bottomNavInformationItem"
+        android:icon="@drawable/ski_map_info"
+        android:title="@string/infopiste" />
+    <item
+        android:id="@+id/bottomNavHistoryItem"
+        android:icon="@drawable/history"
+        android:title="@string/history" />
+
+</menu>

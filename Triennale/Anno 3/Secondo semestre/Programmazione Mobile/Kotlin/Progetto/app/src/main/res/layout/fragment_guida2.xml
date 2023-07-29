@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/guida2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/titleBarColor"
+    tools:context=".view.tutorial.Guida2Fragment">
+
+
+    <TextView
+        android:id="@+id/secondTutorialText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/guide2"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/secondTutorialBackBtn"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/secondTutorialNextBtn"
+        android:layout_width="115dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/secondTutorialImg"
+        android:layout_width="190dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="1dp"
+        android:contentDescription="@string/guida2Image1Description"
+        android:src="@drawable/tutorial2"
+        app:layout_constraintBottom_toTopOf="@+id/secondTutorialBackBtn"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondTutorialText"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="112dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="56dp"
+        android:baselineAligned="true"
+        android:gravity="center|end"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/secondTutorialNextBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/secondTutorialImg"
+        app:layout_constraintTop_toBottomOf="@+id/secondTutorialText">
+
+        <ImageView
+            android:id="@+id/secondTutorialImg2"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="17dp"
+            android:contentDescription="@string/guida2DistanceIconDescription"
+            android:src="@drawable/distance"
+            app:srcCompat="@drawable/distance"
+            tools:srcCompat="@drawable/distance" />
+
+        <ImageView
+            android:id="@+id/secondTutorialImg3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="17dp"
+            android:contentDescription="@string/guida2SpeedIconDescription"
+            android:src="@drawable/speed"
+            app:srcCompat="@drawable/speed"
+            tools:srcCompat="@drawable/speed" />
+
+        <ImageView
+            android:id="@+id/secondTutorialImg4"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="17dp"
+            android:contentDescription="@string/guida2TimeIconDescription"
+            android:src="@drawable/time"
+            app:srcCompat="@drawable/time"
+            tools:srcCompat="@drawable/time" />
+
+        <ImageView
+            android:id="@+id/secondTutorialImg5"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:contentDescription="@string/guida2AltitudeIconDescription"
+            android:src="@drawable/dislivello"
+            app:srcCompat="@drawable/dislivello"
+            tools:srcCompat="@drawable/dislivello" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

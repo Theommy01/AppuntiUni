@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- colori per la visualizzazione dell'interfaccia -->
+    <color name="titleBarColor">#2c7ca3</color>
+    <color name="secondaryColor">#a195c8</color>
+    <color name="activityBGColor">#cbebec</color>
+
+    <!-- colori degli indicatori presenti nell'app -->
+    <color name="pistaFacile">#576aec</color>
+    <color name="pistaMedia">#d42727</color>
+    <color name="indicatorePisteNotturne">#0c0076</color>
+    <color name="websiteLink">#153c45</color>
+    <color name="comprensorioAperto">#049416</color>
+    <color name="comprensorioChiuso">#049416</color>
+
+    <!-- altri colori generici -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="link">#0000FF </color>
+</resources>

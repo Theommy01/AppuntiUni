@@ -1,0 +1,145 @@
+<resources>
+    <!-- nome dell'app -->
+    <string name="app_name">SkiTracker</string>
+
+    <!-- Stringhe per i Fragment di tutorial -->
+    <string name="guide1">Ottieni le piste del comprensorio in cui ti trovi</string>
+    <string name="guide2">Scegli la pista ed inizia a tracciare i tuoi percorsi </string>
+    <string name="guide3">Puoi comunicare lo stato delle piste agli altri sciatori</string>
+
+    <string name="appIconDescription">Logo dell\'app SkiTracker</string>
+    <string name="guida1ImageDescription">Mappa di un comprensorio di esempio</string>
+    <string name="guida2Image1Description">Esempio di percorso tracciato con SkiTracker</string>
+    <string name="guida2DistanceIconDescription">Icona della distanza</string>
+    <string name="guida2SpeedIconDescription">Icona della velocità</string>
+    <string name="guida2TimeIconDescription">Icona della durata temporale</string>
+    <string name="guida2AltitudeIconDescription">Icona del dislivello</string>
+    <string name="guida3Image1Description">Immagine di esempio di una pista da sci</string>
+    <string name="guida3Image2Description">Scala di valutazione dello stato delle piste</string>
+
+    <!-- Stringhe per About Us -->
+    <string name="aboutUsActivityTitle">Informazioni su SkiTracker</string>
+    <string name="developers">Sviluppatori: Arduini Federico, Naja Omar Versione: 1.0</string>
+    <string name="copyright">TUTTI I DIRITTI RISERVATI</string>
+    <string name="logo_image_description">Logo dell\'app SkiTracker</string>
+    <string name="univpm_image_description">Logo dell\'Università Politecnica delle Marche</string>
+
+    <!-- Stringhe per Fragment Welcome -->
+    <string name="welcome1">Ottieni le mappe del tuo comprensorio</string>
+    <string name="welcome2">Traccia i percorsi</string>
+    <string name="welcome3">Controlla lo stato delle piste</string>
+
+    <!-- Stringhe per Fragment Info Piste -->
+    <string name="infoPisteFragmentTitle">Informazioni comprensorio</string>
+    <string name="night"> PISTE NOTTURNE</string>
+    <string name="snowpark"> SNOWPARK</string>
+    <string name="title">Comprensorio dal lungo nome</string>
+    <string name="availability">Piste disponibili</string>
+    <string name="numpiste">🏂 Numero di piste:</string>
+    <string name="impianti">🚡 Impianti di risalita:</string>
+    <string name="altMin">⛰ Altitudine minima: </string>
+    <string name="altMax">🏔 Altitudine max: </string>
+    <string name="website">🌐 Sito Internet</string>
+    <string name="type">Stato</string>
+    <string name="empty_num">0</string>
+    <string name="empty_altitude">1000 m s.l.m.</string>
+    <string name="altitude">%1$d m s.l.m.</string>
+
+    <!-- Stringhe di menu -->
+    <string name="selezionecomprensorio">Ricerca comprensorio</string>
+    <string name="map">Mappa</string>
+    <string name="infopiste">Info piste</string>
+    <string name="history">Cronologia</string>
+    <string name="menu">Menu</string>
+    <string name="change">Cambia comprensorio</string>
+    <string name="zoom">Regola zoom mappa</string>
+    <string name="guide">Guida</string>
+    <string name="info">Informazioni sull\'app</string>
+
+    <!-- Stringe per testi dei Button -->
+    <string name="tour">Inizia il tour</string>
+    <string name="skip">Salta</string>
+    <string name="back">Indietro</string>
+    <string name="next">Avanti</string>
+    <string name="cancel">Annulla</string>
+    <string name="end">Termina</string>
+    <string name="start">Inizia</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+
+    <!-- stringhe per fragment selezione comprensorio -->
+    <string name="skiAreaItemDescription">Immagine comprensorio</string>
+    <string name="loadingSkiAreas">Caricamento comprensori…</string>
+    <string name="numberOfSkiAreasAvaiableInItaly">%1$d comprensori disponibili (paese: IT)</string>
+    <string name="skiAreaClosedDialog">Il comprensorio selezionato non è più aperto al pubblico.</string>
+    <string name="skiAreaGetErrorDialog">Impossibile ottenere la lista dei comprensori: %1$s</string>
+    <string name="skiAreaSearchPlaceholder">Ricerca comprensorio</string>
+    <string name="pisteDownloadError">Impossibile ottenere la lista delle piste per questo comprensorio.</string>
+
+    <!-- stringhe per fragment della mappa -->
+    <string name="snackBarMapProblems">Problemi con la mappa?</string>
+    <string name="zoomRegulationSnackbarButton">Regola zoom</string>
+    <string name="zoomRegulationDialogTitle">Che succede?</string>
+    <string name="increaseZoomRequest">Non vedo alcune piste</string>
+    <string name="decreaseZoomRequest">Vedo troppe piste</string>
+    <string name="addRecordFabContentDescription">Crea nuovo tracciamento</string>
+    <string name="getPositionFabContentDescription">Centra la mappa sulla tua posizione</string>
+    <string name="mapXMLloadingError">
+        Impossibile caricare la mappa del comprensorio, probabilmente è assente la connessione Internet. Verrà visualizzata la mappa locale.
+    </string>
+
+    <!-- stringhe per fragment tracciamento piste -->
+    <string name="trackingStartWarningDialog">
+        Tra poco inizierà il tracciamento lungo la pista %1$s.
+        Durante il tracciamento, si consiglia di bloccare il telefono e di NON terminare l\'applicazione.
+    </string>
+
+    <string name="tracciamentoSelPistaTitle">Selezione pista</string>
+    <string name="tracciamentoPercorsoTitle">Tracciamento percorso</string>
+
+    <string name="examplePistaName">Pista nome lungo</string>
+    <string name="exampleDistance">0 mt</string>
+    <string name="exampleSpeed">0 km/h</string>
+    <string name="exampleTime">00:00</string>
+
+    <string name="distanceIconDescription">Icona della distanza del percorso compiuto</string>
+    <string name="speedIconDescription">Icona della velocità di percorrimento della pista</string>
+    <string name="timeIconDescription">Icona della durata temporale del percorso</string>
+
+    <string name="stopTrackingDialog">Desideri interrompere il tracciamento della pista?</string>
+
+    <!-- stringhe per i Dialogs -->
+    <string name="alertErrorTitle">Errore</string>
+    <string name="alertInfoTitle">Informazione</string>
+    <string name="alertQuestionTitle">Domanda</string>
+
+    <!-- stringhe per fragment cronologia tracciamenti -->
+    <string name="historyFragmentTitle">Cronologia tracciamenti</string>
+    <string name="spinnerContentDescription">Lista dei comprensori in cui hai tracciato una tua sciata</string>
+
+    <string name="trackingAverageSpeedIndicator">💥 Velocità media:</string>
+    <string name="trackingDuration">🕓 Durata:</string>
+    <string name="trackingDistance">🚩 Lunghezza:</string>
+    <string name="trackingDislivello">🏔️ Dislivello:</string>
+
+    <string name="trackingDateTime">🗓️ %1$s</string>
+    <string name="averageSpeed">%1$d km/h</string>
+    <string name="trackDistance">%1$d mt</string>
+
+    <!-- altri testi utili -->
+    <string name="uploading">Caricamento…</string>
+    <string name="repo">Repo GitHub</string>
+
+    <string name="open">Menù aperto con successo</string>
+    <string name="close">Menù chiuso con successo</string>
+    <string name="lookingForGPS">Ottenimento della posizione dal GPS…</string>
+
+    <string name="pistaNovizio">Novizio</string>
+    <string name="pistaFacile">Facile</string>
+    <string name="pistaMedia">Medio</string>
+    <string name="pistaDifficile">Difficile</string>
+
+    <string name="skiAreaOpen">APERTO</string>
+    <string name="skiAreaClose">CHIUSO</string>
+
+</resources>

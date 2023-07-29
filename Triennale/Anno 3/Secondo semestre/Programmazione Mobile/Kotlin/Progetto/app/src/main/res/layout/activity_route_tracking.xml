@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/route_sel_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBGColor"
+    tools:context=".view.routeTracking.RouteTrackingActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/route_sel_fragment_container"
+        android:name="it.omarkiarafederico.skitracker.view.routeTracking.RouteSelectionFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_route_selection" />
+</FrameLayout>

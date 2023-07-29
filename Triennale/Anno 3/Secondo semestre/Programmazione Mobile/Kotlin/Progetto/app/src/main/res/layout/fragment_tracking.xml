@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/trackingFragmentLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:id="@+id/trackingFragmentTableLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/secondaryColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/trackPistaDetailRow"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:minHeight="58dp">
+
+            <TextView
+                android:id="@+id/trackPistaName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxWidth="245dp"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:text="@string/examplePistaName"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/trackPistaDifficulty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/pistaDifficile"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trackDistanceRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+
+            <TextView
+                android:id="@+id/trackDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/exampleDistance"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/trackDistanceIcon"
+                android:layout_width="10dp"
+                android:layout_height="38dp"
+                android:baselineAlignBottom="false"
+                android:contentDescription="@string/distanceIconDescription"
+                android:maxWidth="40dp"
+                android:src="@drawable/distance"
+                app:srcCompat="@drawable/distance" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trackSpeedRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+
+            <TextView
+                android:id="@+id/trackSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/exampleSpeed"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/trackSpeedIcon"
+                android:layout_width="70dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/speedIconDescription"
+                android:src="@drawable/speed"
+                app:srcCompat="@drawable/speed" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/trackTimeRow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:minHeight="50dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp">
+
+            <Chronometer
+                android:id="@+id/trackTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/trackTimeIcon"
+                android:layout_width="130dp"
+                android:layout_height="38dp"
+                android:contentDescription="@string/timeIconDescription"
+                android:src="@drawable/time"
+                app:srcCompat="@drawable/time" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/trackingMap"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/trackingFragmentCancelBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trackingFragmentTableLayout">
+
+    </org.osmdroid.views.MapView>
+
+    <Button
+        android:id="@+id/trackingFragmentCancelBtn"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        android:layout_width="169dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/white"
+        android:maxWidth="320dp"
+        android:text="@string/cancel"
+        android:textColor="@color/black"
+        app:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:iconPadding="29dp"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/trackingFragmentEndBtn"
+        style="@style/Widget.MaterialComponents.BottomAppBar"
+        android:layout_width="173dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/white"
+        android:maxWidth="320dp"
+        android:text="@string/end"
+        android:textColor="@color/black"
+        app:icon="@drawable/finish"
+        app:iconTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

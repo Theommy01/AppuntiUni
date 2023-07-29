@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- permesso per poter accedere alla posizione precisa col GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- permesso per poter andare in internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/appicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SkiTracker"
+        tools:ignore="LockedOrientationActivity"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.routeTracking.RouteTrackingActivity"
+            android:exported="true"
+            android:theme="@style/Theme.SkiTracker"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".view.skimap.MapActivity" />
+        <activity
+            android:name=".view.selezionecomprensorio.SelezioneComprensorio"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="Scegli comprensorio" />
+        <activity
+            android:name=".view.skimap.AboutUsActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".view.skimap.MapActivity" />
+        <activity
+            android:name=".view.tutorial.WelcomeActivity"
+            android:screenOrientation="portrait"
+            android:exported="true" />
+        <activity
+            android:name=".view.skimap.MapActivity"
+            android:screenOrientation="portrait"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
