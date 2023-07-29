@@ -1,0 +1,68 @@
+# 2023-05-30T20:40:58.798Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "MyTest"
+    test_package: "it.omarkiarafederico.skitracker"
+    test_method: "testFragmentChange"
+    start_time {
+      seconds: 1685479255
+      nanos: 150000000
+    }
+    end_time {
+      seconds: 1685479257
+      nanos: 834000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\omarn\\OneDrive\\Documenti\\GitHub\\programmazionemobile\\app\\build\\outputs\\androidTest-results\\connected\\CPH2247 - 13\\logcat-it.omarkiarafederico.skitracker.MyTest-testFragmentChange.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\omarn\\OneDrive\\Documenti\\GitHub\\programmazionemobile\\app\\build\\outputs\\androidTest-results\\connected\\CPH2247 - 13\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\omarn\\OneDrive\\Documenti\\GitHub\\programmazionemobile\\app\\build\\outputs\\androidTest-results\\connected\\CPH2247 - 13\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\omarn\\OneDrive\\Documenti\\GitHub\\programmazionemobile\\app\\build\\outputs\\androidTest-results\\connected\\CPH2247 - 13\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\omarn\\OneDrive\\Documenti\\GitHub\\programmazionemobile\\app\\build\\outputs\\androidTest-results\\connected\\CPH2247 - 13\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

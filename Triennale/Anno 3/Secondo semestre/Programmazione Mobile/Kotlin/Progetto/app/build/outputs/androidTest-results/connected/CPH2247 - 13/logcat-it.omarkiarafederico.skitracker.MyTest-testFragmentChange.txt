@@ -1,0 +1,977 @@
+05-30 22:40:53.481  8818  8845 I TestRunner: started: testFragmentChange(it.omarkiarafederico.skitracker.MyTest)
+05-30 22:40:53.485  8818  8845 W ActivityTestRule: getActivityIntent() returned null using default: Intent(Intent.ACTION_MAIN)
+05-30 22:40:53.506  1366  1537 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+05-30 22:40:53.506  1366  1537 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+05-30 22:40:53.506  1366  1537 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+05-30 22:40:53.507   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device VINTF manifest.
+05-30 22:40:53.512  2006  6376 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+05-30 22:40:53.515  2006  6376 D OplusAlwaysAliveManager: new task launch with process exists: ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity} t18672}, processName: it.omarkiarafederico.skitracker
+05-30 22:40:53.515  2006  6376 D OplusUIFirst_FB: it.omarkiarafederico.skitracker activity event: []
+05-30 22:40:53.515  2006  6376 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:53.516  1488  2502 I SurfaceFlinger: [SF client] NEW(0xb400007ef76ac0c0) for (3450:com.android.systemui)
+05-30 22:40:53.517  3450  3573 W OplusSlideAnimOptHelper: initScrollOpt: not running in mainthread
+05-30 22:40:53.517  3450  3573 D WindowManager: Add to mViews: android.widget.FrameLayout{1e8092d V.E...... ......I. 0,0-0,0},pkg= it.omarkiarafederico.skitracker
+05-30 22:40:53.522  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:53.523  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:53.524  3450  3573 D InputEventReceiver: Input log is disabled
+05-30 22:40:53.530  3831  3831 W View    : requestLayout() improperly called by android.widget.LinearLayout{37a5766 VFE...C.. ......ID 0,3-936,105 #7f0a00a2 app:id/animated_hint_layout} during layout: running second layout pass
+05-30 22:40:53.532  1366  1537 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+05-30 22:40:53.532  1366  1537 W ANDR-PERF-LM: MetaMeter: handlePrimaryAsync() 118: AdaptLaunch MetaMeter. No MeterMgr Available to handle this Primary Async. !!!!
+05-30 22:40:53.532  2006  7214 V SensorManager: call sensorServiceCommonInterface name: setScreenShotDisable
+05-30 22:40:53.532  2006  7214 D SensorService: SensorService sensorServiceCommonInterface = setScreenShotDisable
+05-30 22:40:53.532  2006  7214 D SensorServiceExtImpl: sensorServiceCommonInterface funcName = setScreenShotDisable, flag = 0, status = 0
+05-30 22:40:53.532  2006  7214 D OplusUIFirst_FB: it.omarkiarafederico.skitracker activity event: []
+05-30 22:40:53.532  2006  7214 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:53.532  2006  7214 D OplusUIFirst_FB: handleParaSwitch it.omarkiarafederico.skitracker null null 1
+05-30 22:40:53.532  2006  7214 I OplusHansManager : front pkg: it.omarkiarafederico.skitracker, uid: 10334, prev pkg: com.android.launcher, prev uid: 10109
+05-30 22:40:53.532  2006  4160 I OplusHansManager : notifyAppGoForeground, uid=10334
+05-30 22:40:53.532  2006  7214 D OplusUIFirst_FB: it.omarkiarafederico.skitracker activity event: []
+05-30 22:40:53.532  2006  7214 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:53.532  2006  7214 D OplusUIFirst_FB: handleParaSwitch it.omarkiarafederico.skitracker null null 1
+05-30 22:40:53.532  2006  4160 I OplusHansManager : notifyAppGoBackground, uid=10109
+05-30 22:40:53.532  2006  3966 I OplusHansManager : uid=10334, pkg=it.omarkiarafederico.skitracker R exit SM
+05-30 22:40:53.532  2006  3966 I OplusHansManager : uid=10334, pkg=it.omarkiarafederico.skitracker R exit(), R stay=0
+05-30 22:40:53.533  2006  3060 I Osense-DecisionMaker: notifySceneToAthenaPolicy: SCENE_APP_SWITCH, bundle: Bundle[{prevPkgName=com.android.launcher, curUid=10334, curPkgName=it.omarkiarafederico.skitracker, prevUid=10109}]
+05-30 22:40:53.533  2006  4024 I OplusResourcePreloadManager: resume pkg: it.omarkiarafederico.skitracker, uid:10334, prev pkg: com.android.launcher, prev uid: 10109
+05-30 22:40:53.533  2006  3060 I Osense-DecisionMaker: scene: SCENE_APP_SWITCH, excutingPolicy: freezer
+05-30 22:40:53.533  2006  3060 D Osense-DecisionMaker: invoke freezer policy,type: fast
+05-30 22:40:53.533  1366  1537 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+05-30 22:40:53.537  2006  4159 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit, resuming = it.omarkiarafederico.skitracker, target = com.android.launcher, is ResumingFirstStart =  false, is ResumingMultiApp =  false, extensionInfo =  Bundle[{taskId=18672, uid=10334}]
+05-30 22:40:53.537  2006  9169 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = com.android.launcher to = it.omarkiarafederico.skitracker
+05-30 22:40:53.537  2006  7214 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity} t18672}
+05-30 22:40:53.538  2006  7214 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hist_memory - 20.
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_length - 0.
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count - 3.
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hist_memory - 20.
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hyst_length - 0.
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hyst_trigger_count - 3.
+05-30 22:40:53.539  1406  1406 D ORMS_HAL: OrmsHalService write file /dev/stune/foreground/schedtune.prefer_idle - 0.
+05-30 22:40:53.540  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/devices/system/cpu/cpu_boost/input_boost_freq - 0:1324800 4:0 7:0.
+05-30 22:40:53.542  2006  2428 D OplusUIFirst_FB: it.omarkiarafederico.skitracker toForeOps: []
+05-30 22:40:53.542  2006  2428 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:53.543  2006  2428 D OplusUIFirst_FB: it.omarkiarafederico.skitracker moveToTop:[]
+05-30 22:40:53.543  2006  2428 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:53.543  2006  2428 D OplusUIFirst_FB: it.omarkiarafederico.skitracker boost hint: 8818
+05-30 22:40:53.543  2006  2428 D OplusUIFirst_FB: handleParaSwitch it.omarkiarafederico.skitracker null null 0
+05-30 22:40:53.544  2006  4159 D OplusLatencyOptimizerManager: enter pkg: it.omarkiarafederico.skitracker isPrevBlackAppTop: false mIsBlackAppTop: false
+05-30 22:40:53.544  2006  4159 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter, launchedFrom =  it.omarkiarafederico.skitracker, target =  it.omarkiarafederico.skitracker, is firstStart =  false, is multiApp =  false, extensionInfo =  Bundle[{taskId=18672, pid=8818, uid=10334, versionCode=1}]
+05-30 22:40:53.544  2006  2737 E Athena  : MemoryGuardAction: handleAppChange
+05-30 22:40:53.545  4777 24556 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:8818,uid:10334,hasForegroundActivities:1
+05-30 22:40:53.547  4777  6655 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:8818,uid:10334,hasForegroundActivities:1
+05-30 22:40:53.547  4777  6984 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=0 what=2 obj=com.oplus.atlas.OplusAtlasEvent@94b97bb target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-30 22:40:53.547  6939  6975 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:8818, uid:10334, foregroundActivities:true
+05-30 22:40:53.548  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:53.548  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:53.548  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:53.548  3450  3573 D BufferQueueConsumer: [](id:d7a0000417e,api:0,p:-1,c:3450) connect: controlledByApp=false
+05-30 22:40:53.549  3450  3573 E IPCThreadState: attemptIncStrongHandle(346): Not supported
+05-30 22:40:53.549  3450  3573 E IPCThreadState: attemptIncStrongHandle(330): Not supported
+05-30 22:40:53.549  3450  3573 E IPCThreadState: attemptIncStrongHandle(259): Not supported
+05-30 22:40:53.549  3450  3573 E IPCThreadState: attemptIncStrongHandle(443): Not supported
+05-30 22:40:53.549  3450  3573 E IPCThreadState: attemptIncStrongHandle(356): Not supported
+05-30 22:40:53.549  6503  7741 W Battery : ThermalControlUtils: mForegroundPkg=it.omarkiarafederico.skitracker
+05-30 22:40:53.550  3450  3695 D BufferQueueProducer: [VRI[skitracker]#16723(BLAST Consumer)16723](id:d7a0000417e,api:1,p:3450,c:3450) connect: api=1 producerControlledByApp=true
+05-30 22:40:53.551  6503  7741 W Battery : ThermalControllHandler: tempLevel=3,userMode=2,gameUserMode=-1,appType=-1,envTempType=0,appStates=[]
+05-30 22:40:53.551  6503  7741 W Battery : ThermalControllerCenter: mSafetyState=10000
+05-30 22:40:53.554  6503  7741 W Battery : ThermalControllHandler: tempGear=3,configItemName=common_config
+05-30 22:40:53.554  4119  4152 I Athena  : AthenaDynamicReceiver: pre_app:com.android.launcher, next_app:it.omarkiarafederico.skitracker(10334|8818)
+05-30 22:40:53.554  6503  7739 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+05-30 22:40:53.556  3450  3573 D VRI[skitracker]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:53.558  3450  3695 D VRI[skitracker]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-30 22:40:53.559  3450  3695 W Parcel  : Expecting binder but got null!
+05-30 22:40:53.559  3450  3573 D VRI[skitracker]: draw finished.
+05-30 22:40:53.559  8818  8859 E rico.skitracker: Loaded layer handle (6180121180235535495) for layer /my_product/lib64/libcolorx-loader.so
+05-30 22:40:53.559  8818  8859 E rico.skitracker: Looking for entrypoint ColorX_Check
+05-30 22:40:53.559  8818  8859 E rico.skitracker: Found ColorX_Check for /my_product/lib64/libcolorx-loader.so
+05-30 22:40:53.559  8818  8859 E rico.skitracker: Check failed
+05-30 22:40:53.562  2006  2428 D OplusUIFirst_FB: com.android.launcher moveToBack 3831
+05-30 22:40:53.563  2006  2428 D OplusUIFirst_FB: com.coloros.assistantscreen moveToBack 19147
+05-30 22:40:53.564  3450  3559 V ShellTaskOrganizer: Task appeared taskId=18672
+05-30 22:40:53.565  2006  2428 D OplusUIFirst_FB: com.google.android.googlequicksearchbox moveToBack 8166
+05-30 22:40:53.566  2006  2428 D OplusUIFirst_FB: com.google.android.googlequicksearchbox moveToBack 19524
+05-30 22:40:53.567  1488  1488 D OplusLayer: (211302,Splash Screen it.omarkiarafederico.skitracker#211302,com.android.systemui) setBuffer
+05-30 22:40:53.570  2006  6436 I FocusResolver: updateFocusedWindow,  on display 0, reason: NO_WINDOW, result:   FocusedWindows: <none>
+05-30 22:40:53.570  3831  3831 D VRI[Launcher]: onFocusEvent false
+05-30 22:40:53.575  6939  6979 I DeepThinker: IntentManager: onIntentProduced 1
+05-30 22:40:53.575  6939  6979 I DeepThinker: IntentManager: dispatchIntents 1
+05-30 22:40:53.575  6939 15613 I DeepThinker: EventFountainDispatcher: dispatchSpecificIntents 1
+05-30 22:40:53.575  6939 15617 I DeepThinker: EventFountainDispatcher: dispatchSpecificIntents com.pantanal.action.APPS_LIST
+05-30 22:40:53.578  8818  8818 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+05-30 22:40:53.583  1488  1488 D Layer   : reparent to null sequence=211297, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211297
+05-30 22:40:53.583  1488  1488 D Layer   : reparent to null sequence=211298, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211298
+05-30 22:40:53.585 21060  8554 W AdaptiveDiscoveryWorker: Exiting Adaptive Discovery. Current NetworkInfo is NULL.
+05-30 22:40:53.586  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: PRE_ON_CREATE
+05-30 22:40:53.589  4210 23684 W lus.appplatform: Large reply transaction of 309252 bytes, interface descriptor com.oplus.epona.IRemoteTransfer, code 1
+05-30 22:40:53.598  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: Unknow feature:IOplusTextViewRTLUtilForUG
+05-30 22:40:53.600  1488  1488 D OplusLayer: ~Layer() sequence=211297, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211297
+05-30 22:40:53.600  1488  1488 D OplusLayer: ~Layer() sequence=211298, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211298
+05-30 22:40:53.601  1488  1488 I DispPerfService: updateLayerMask 9
+05-30 22:40:53.602  8818  8818 D ScrollOptimizationHelper: can't find the config file for optimizaiton
+05-30 22:40:53.602  8818  8818 D ScrollOptimizationHelper: will not debug for debug is false
+05-30 22:40:53.603  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.603  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.603  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.603  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.603  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.603  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.627  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:53.628 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:53.636  8818  8818 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10334; state: ENABLED
+05-30 22:40:53.637  8302  8302 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+05-30 22:40:53.639  8302  8342 I GsaVoiceInteractionSrv: Not stopping hotword, hotword should keep running.
+05-30 22:40:53.639  8818  8818 W rico.skitracker: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+05-30 22:40:53.656  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:53.657 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:53.665  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.665  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.665  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.680  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.680  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.680  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:53.689  8818  8818 W rico.skitracker: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+05-30 22:40:53.696  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:53.698  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:53.707  8818  8818 I SkiTracker GPS Location: Trying to get GPS location.
+05-30 22:40:53.723  8818  8818 W ActionBarDrawerToggle: DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+05-30 22:40:53.723  6434  6434 E VendorNfcService: changeNfcState: WIRELESS_CHARGING is disable; mIsWirelessCharging: false; mIsReverseChargingSwitchOpen: false
+05-30 22:40:53.725  2006  2451 I OplusHansManager : unfreeze uid: 10357 com.microsoft.teams pids: [14995] reason: Broadcast scene: LcdOn
+05-30 22:40:53.726  2006  3966 I OplusHansManager : uid=10357, pkg=com.microsoft.teams, transition from Frozen to Middle, reason=Broadcast
+05-30 22:40:53.726  2006  3966 I OplusHansManager : uid=10357, pkg=com.microsoft.teams F exit(), F stay=0, reason=Broadcast
+05-30 22:40:53.729  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: CREATED
+05-30 22:40:53.746  8818  8818 I StorageUtils: /data/user/0/it.omarkiarafederico.skitracker/files is writable
+05-30 22:40:53.748  8818  8818 I StorageUtils: /storage/emulated/0/Android/data/it.omarkiarafederico.skitracker/files is writable
+05-30 22:40:53.748  8818  8818 I StorageUtils: /data/user/0/it.omarkiarafederico.skitracker/files is writable
+05-30 22:40:53.748  9435  9440 D IHansComunication: HANS sendMessageToKernel: threadId = 540708449456, netLinkSetup = 1, type = FROZEN_TRANS, targetUid = 10282, pkgCmd = PKG_CMD_MAX
+05-30 22:40:53.748  8818  8818 I StorageUtils: /storage/emulated/0/Android/data/it.omarkiarafederico.skitracker/files is writable
+05-30 22:40:53.750  8818  8818 I OsmDroid: Using tile source: Mapnik
+05-30 22:40:53.752  8818  8818 I OsmDroid: Tile cache increased from 0 to 9
+05-30 22:40:53.806  8818  8862 I SkiTracker API Call: URL richiesta API: https://nominatim.openstreetmap.org/reverse?lat=43.4814&lon=12.7012&format=geojson&extratags=1&zoom=15
+05-30 22:40:53.811  4174  4212 D NetworkEvent: OplusNetworkEventCbProxy invoke.....onDnsEvent argslen:8
+05-30 22:40:53.812  8818  8862 D TrafficStats: tagSocket(115) with statsTag=0xffffffff, statsUid=-1
+05-30 22:40:53.830  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:53.831 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:53.835  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:53.835  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:53.849  8166  9127 D VRI[Launcher]: dispatchAppVisibility visible:false
+05-30 22:40:53.849  3831 11432 D VRI[Launcher]: dispatchAppVisibility visible:false
+05-30 22:40:53.858  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:53.859 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:53.861  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:53.861  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:53.861  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:53.866  1488  1488 D Layer   : reparent to null sequence=211304, seq[19], name=Surface(name=Task=6)/@0x7af8e3d - animation-leash of app_transition#211304
+05-30 22:40:53.866  1488  1488 D Layer   : reparent to null sequence=211303, seq[48], name=Surface(name=Task=18672)/@0xce544f5 - animation-leash of app_transition#211303
+05-30 22:40:53.866  1488  1488 D OplusLayer: ~Layer() sequence=211304, name=Surface(name=Task=6)/@0x7af8e3d - animation-leash of app_transition#211304
+05-30 22:40:53.866  1488  1488 D OplusLayer: ~Layer() sequence=211303, name=Surface(name=Task=18672)/@0xce544f5 - animation-leash of app_transition#211303
+05-30 22:40:53.867  3831  4038 D BufferQueueProducer: [VRI[Launcher]#2736(BLAST Consumer)2736](id:ef700001b16,api:1,p:3831,c:3831) disconnect: api 1
+05-30 22:40:53.867  1488  1488 I DispPerfService: updateLayerMask 0
+05-30 22:40:53.869  8166  8421 D BufferQueueProducer: [VRI[Launcher]#223(BLAST Consumer)223](id:1fe6000000df,api:1,p:8166,c:8166) disconnect: api 1
+05-30 22:40:53.871  3831  3831 D BufferQueueConsumer: [VRI[Launcher]#2736(BLAST Consumer)2736](id:ef700001b16,api:0,p:-1,c:3831) disconnect
+05-30 22:40:53.873  8166  8166 D BufferQueueConsumer: [VRI[Launcher]#223(BLAST Consumer)223](id:1fe6000000df,api:0,p:-1,c:8166) disconnect
+05-30 22:40:53.873  8166  8166 I A       : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-30 22:40:53.873  8166  8166 I A       : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+05-30 22:40:53.882  2006  2426 D SensorService: onUidStateChanged uid = 10078, state = UID_STATE_ACTIVE
+05-30 22:40:53.953  9435  9440 D IHansComunication: HANS sendMessageToKernel: threadId = 540708449456, netLinkSetup = 1, type = FROZEN_TRANS, targetUid = 10357, pkgCmd = PKG_CMD_MAX
+05-30 22:40:54.031  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.033 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.060  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.061 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.073  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.073  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.081  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.081  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.081  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.161  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.161  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.181  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.181  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.181  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.233  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.235 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.238  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.238  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.238  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.256  8818  8862 I SkiTracker API Call w/XML: URL richiesta API: https://overpass-api.de/api/interpreter
+05-30 22:40:54.258  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.258  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.258  8818  8862 D TrafficStats: tagSocket(118) with statsTag=0xffffffff, statsUid=-1
+05-30 22:40:54.259  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.259  4174  4212 D NetworkEvent: OplusNetworkEventCbProxy invoke.....onDnsEvent argslen:8
+05-30 22:40:54.262  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.263 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.341  2006  3048 D AppStateRecord: handleMessage: EVENT_FOREGROUND_APP_CHANGE
+05-30 22:40:54.342  2006  3048 D AppStateRecord: isFgAppInStuckList
+05-30 22:40:54.342  2006  3048 D AppStateRecord: getFgAppInStuckList: fgApp it.omarkiarafederico.skitracker
+05-30 22:40:54.342  2006  3048 D AppStateRecord: handleMessage: not fg stuck app, updateQoeEvent false
+05-30 22:40:54.363  2267  3129 D QmiClient: qmiServiceEventCallback recv msg id 74
+05-30 22:40:54.363  2267  3129 D QmiDsdClient: enter - onQmiServiceEventCallback msgId 74
+05-30 22:40:54.363  2267  3129 D QmiDsdClientEvent: qmiDsdClientNotifyLteCellInfoChangeEvent - RADIO_EVENT_LTE_CELL_INFO_CHANGE_IND
+05-30 22:40:54.364  2267  2364 D DsdProxy: handleMessage msg is 2201
+05-30 22:40:54.364  2267  2364 D DsdProxy: handleLteCellInfoChangeInd for instance 0
+05-30 22:40:54.364  4174  4212 D SubsysRadioIndication: radioLteCAInfoInd
+05-30 22:40:54.364  4174  4174 D QtiCellularNetwork: handleLteCaInfoChanged 0
+05-30 22:40:54.367  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.367  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.387  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.388  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.388  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.436  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.438 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.465  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.466 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.468  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.468  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.496  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.496  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.496  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.516  1366  5689 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+05-30 22:40:54.516  1366  5690 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+05-30 22:40:54.516  1366  5690 E ANDR-PERF-LM: AdaptiveLaunch: writeToDataBase() 64: Meter aborted or could not get meter data for this run
+05-30 22:40:54.523  2267  3129 D QmiClient: qmiServiceEventCallback recv msg id 74
+05-30 22:40:54.523  2267  3129 D QmiDsdClient: enter - onQmiServiceEventCallback msgId 74
+05-30 22:40:54.523  2267  3129 D QmiDsdClientEvent: qmiDsdClientNotifyLteCellInfoChangeEvent - RADIO_EVENT_LTE_CELL_INFO_CHANGE_IND
+05-30 22:40:54.523  2267  2364 D DsdProxy: handleMessage msg is 2201
+05-30 22:40:54.523  2267  2364 D DsdProxy: handleLteCellInfoChangeInd for instance 0
+05-30 22:40:54.523  4174  4212 D SubsysRadioIndication: radioLteCAInfoInd
+05-30 22:40:54.523  4174  4174 D QtiCellularNetwork: handleLteCaInfoChanged 0
+05-30 22:40:54.532  6620  8469 W yAF.TPLog.FrameworkUpdateListener: [it.omarkiarafederico.skitracker.test] removed. Stop sending intent
+05-30 22:40:54.596  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.596  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.596  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.596  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.596  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.638  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.639 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.667  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.668 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.694  2006  6436 D LocationManagerService: gps provider added registration from 10334/it.omarkiarafederico.skitracker/A8E99ECF -> Request[@0 HIGH_ACCURACY, WorkSource{10334 it.omarkiarafederico.skitracker}] permissionLevel: 2 permitted: true
+05-30 22:40:54.694  2006  6436 D LocationManagerService: registration onActive from uid: 10334 package: it.omarkiarafederico.skitracker
+05-30 22:40:54.695  2006  6436 D LocationManagerService: network provider added registration from 10334/it.omarkiarafederico.skitracker/A8E99ECF -> Request[@0 BALANCED, WorkSource{10334 it.omarkiarafederico.skitracker}] permissionLevel: 2 permitted: true
+05-30 22:40:54.695  1327  1478 E LocSvc_APIClientBase: onResponseCb:917] ERROR: 5 ID: 351
+05-30 22:40:54.695  2006  6436 D LocationManagerService: registration onActive from uid: 10334 package: it.omarkiarafederico.skitracker
+05-30 22:40:54.696  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: STARTED
+05-30 22:40:54.697  2006  2425 D LocationManagerService: passive provider added registration from 1000/android[GnssService]/B6969154 -> Request[PASSIVE, minUpdateInterval=0, WorkSource{1000 android}] permissionLevel: 2 permitted: true
+05-30 22:40:54.697  2006  2425 D LocationManagerService: registration onActive from uid: 1000 package: android
+05-30 22:40:54.698  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: RESUMED
+05-30 22:40:54.701  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.701  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.702  1488  2499 I SurfaceFlinger: [SF client] NEW(0xb400007ef76ac180) for (8818:it.omarkiarafederico.skitracker)
+05-30 22:40:54.705  8818  8882 I OplusSlideAnimOptHelper: checkListMode: is blacklist mode = true
+05-30 22:40:54.705  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.705  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.705  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.705  8818  8882 D OplusSlideAnimOptHelper: it.omarkiarafederico.skitracker scrollEffectOpt enable = true
+05-30 22:40:54.705  8818  8818 D WindowManager: Add to mViews: DecorView@7e89f42[MapActivity],pkg= it.omarkiarafederico.skitracker
+05-30 22:40:54.708  8818  8856 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-30 22:40:54.709  8818  8856 D ExtensionsLoader: Opened libhwuiextimpl.so
+05-30 22:40:54.709  8818  8818 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-30 22:40:54.709  8818  8818 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+05-30 22:40:54.710 21060 21529 W SystemServiceRegistry: No service published for: wifirtt
+05-30 22:40:54.715  1488  2499 I SurfaceFlinger: [SF client] NEW(0xb400007ef76ac600) for (2006:system_server)
+05-30 22:40:54.718  8818  8818 D InputEventReceiver: Input log is disabled
+05-30 22:40:54.719  2006  2911 I OplusHansManager : notifyGnssStatusChanged isNavigating:true
+05-30 22:40:54.720  8818  8818 I SkiTracker GPS Location: Fine Location Allowed
+05-30 22:40:54.723  5513  8885 D DebugReportServiceHidlClient: getReport 1.1...
+05-30 22:40:54.723  5513  8885 D DebugReportServiceHidlClient: getReport 1.1 success: true
+05-30 22:40:54.723  5513  8885 D DebugReportServiceHidlClient: getReport 1.0 success: true
+05-30 22:40:54.735  2006  2911 D AGnssCbJni: agnssStatusCbImpl. type: 1, status:1
+05-30 22:40:54.736  2006  2425 D ConnectivityService: requestNetwork for uid/pid:1000/2006 activeRequest: null callbackRequest: 19791 [NetworkRequest [ REQUEST id=19791, [ Transports: CELLULAR Capabilities: SUPL&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 1000 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+05-30 22:40:54.738  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.738  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.738  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.738  2006  2987 D ConnectivityService: NetReassign [19791 : null → 162] [c 0] [a 0] [i 2]
+05-30 22:40:54.739  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.739  4074  4074 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ REQUEST id=19791, [ Transports: CELLULAR Capabilities: SUPL&NOT_RESTRICTED&TRUSTED&NOT_VPN Uid: 1000 RequestorUid: 1000 RequestorPkg: android UnderlyingNetworks: Null] ]
+05-30 22:40:54.743  2006  6436 I LocationAccessPolicy: com.instagram.android is aware of coarse but the app-ops permission is specifically denied.
+05-30 22:40:54.750  2006  4495 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-30 22:40:54.754  8818  8818 D BufferQueueConsumer: [](id:227200000000,api:0,p:-1,c:8818) connect: controlledByApp=false
+05-30 22:40:54.755  8818  8818 D ExtensionsLoader: createInstance(64bit) : createExtendedFactory
+05-30 22:40:54.755  8818  8818 D ExtensionsLoader: Opened libSchedAssistExtImpl.so
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: QUALCOMM build                   : 1159e70389, I1027f1d7d9
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Build Date                       : 04/08/22
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.17
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Local Branch                     :
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Remote Branch                    :
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Remote Branch                    :
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Reconstruct Branch               :
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Build Config                     : S P 10.0.7 AArch64
+05-30 22:40:54.756  8818  8856 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+05-30 22:40:54.758  8818  8856 I AdrenoGLES-0: PFP: 0x016dd093, ME: 0x00000000
+05-30 22:40:54.765  1327  3206 E LocSvc_ApiV02: reportLocEvent:4011] Loc event report: 0 KlobucharIonoMode_valid:0: leapSec_valid:1: tauC_valid:1 featureStatusReport_valid: 0 featureStatusReport: 0
+05-30 22:40:54.770  8818  8856 D BufferQueueProducer: [VRI[MapActivity]#0(BLAST Consumer)0](id:227200000000,api:1,p:8818,c:8818) connect: api=1 producerControlledByApp=true
+05-30 22:40:54.773   705   705 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+05-30 22:40:54.779  1488  1488 D Layer   : reparent to null sequence=211305, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211305
+05-30 22:40:54.779  1488  1488 D Layer   : reparent to null sequence=211306, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211306
+05-30 22:40:54.780  1488  1488 D OplusLayer: ~Layer() sequence=211305, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211305
+05-30 22:40:54.780  1488  1488 D OplusLayer: ~Layer() sequence=211306, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211306
+05-30 22:40:54.781  2006  3048 E OplusNetworkStackManager: callback len = 5
+05-30 22:40:54.781  2006  3048 D OLK     : INetworkScoreCallback() networkId: 162 better = true, score = 100
+05-30 22:40:54.782  3207  3212 E Diag_Lib: [IMS_AP]"ims-rtp-daemon ims_rtp_qmi_handler_thread_func waiting on select thread>"
+05-30 22:40:54.783  4174  4212 E OplusNetworkStackManager: callback len = 2
+05-30 22:40:54.783  4174  4212 D NetworkEvent: OplusNetworkScoreCbProxy invoke.....onNetworkQualityChange argslen:6
+05-30 22:40:54.783  4174  4212 D OplusFastRecovery: OplusNetworkScoreCbProxy invoke.....onNetworkQualityChange argslen:6
+05-30 22:40:54.783  4074  5995 E OplusNetworkStackManager: callback len = 1
+05-30 22:40:54.785  8818  8818 D VRI[MapActivity]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:54.785  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+05-30 22:40:54.785  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+05-30 22:40:54.801  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+05-30 22:40:54.801  1320 27285 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+05-30 22:40:54.801  1320 27285 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+05-30 22:40:54.840  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.841 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.847  1488  1705 I ClientCache: add: Cache owner=0xb400007f25043160
+05-30 22:40:54.847  8818  8856 D VRI[MapActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-30 22:40:54.849  8818  8856 W Parcel  : Expecting binder but got null!
+05-30 22:40:54.849  8818  8818 D VRI[MapActivity]: draw finished.
+05-30 22:40:54.859  2006  2425 W ziparchive: Unable to open '/data/app/~~UpAKfuEPshVXAAacvJpHww==/it.omarkiarafederico.skitracker-9gQIjhmSPl-aXqcaxl6g_g==/base.dm': No such file or directory
+05-30 22:40:54.859  2006  2425 I ActivityTaskManager: Displayed it.omarkiarafederico.skitracker/.view.skimap.MapActivity: +1s364ms
+05-30 22:40:54.860   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device VINTF manifest.
+05-30 22:40:54.860   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device VINTF manifest.
+05-30 22:40:54.863  1488  1488 D OplusLayer: (211309,it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity#211309,it.omarkiarafederico.skitracker) setBuffer
+05-30 22:40:54.864  1488  1488 I DispPerfService: updateLayerMask 0
+05-30 22:40:54.864  2006  4495 I FocusResolver: updateFocusedWindow, 5089cfd it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-30 22:40:54.864  2006  4495 I FocusResolver:     displayId=0, name='5089cfd it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity'
+05-30 22:40:54.866  8818  8818 D VRI[MapActivity]: onFocusEvent true
+05-30 22:40:54.869  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:54.870 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:54.870  8818  8818 D VRI[MapActivity]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:54.871  1488  2494 D VRR [OTI]: handleIdle from 0 to 1
+05-30 22:40:54.871  1488  2494 D VRR [OTI-HW]: isStateReady 0
+05-30 22:40:54.871  1488  2494 D VRR [OTI-HW]: rate range: min {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=403.41x401.05, group=0} cur {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=403.41x401.05, group=0} max {id=0, hwcId=0, resolution=1080x2400, refreshRate=60.00 Hz, dpi=403.41x401.05, group=0}
+05-30 22:40:54.871  1488  2494 D VRR [OTI-HW]: keep rate.
+05-30 22:40:54.883  8818  8856 D VRI[MapActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+05-30 22:40:54.883  8818  8818 D VRI[MapActivity]: draw finished.
+05-30 22:40:54.888 24377 24377 D InputEventReceiver: Input log is disabled
+05-30 22:40:54.891 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3307
+05-30 22:40:54.891 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2137 repeatCheckTimes = 0, locked = false
+05-30 22:40:54.891 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1917 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=it.omarkiarafederico.skitracker fieldId=2131230793 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-30 22:40:54.892 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():1998 ShouldHideHeaderOnInitialState = false
+05-30 22:40:54.892 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2137 repeatCheckTimes = 1, locked = false
+05-30 22:40:54.896  1488  1488 D Layer   : reparent to null sequence=211268, seq[3], name=Surface(name=af1e532 InputMethod)/@0x1c5ec39 - animation-leash of insets_animation#211268
+05-30 22:40:54.896  1488  1488 D OplusLayer: ~Layer() sequence=211268, name=Surface(name=af1e532 InputMethod)/@0x1c5ec39 - animation-leash of insets_animation#211268
+05-30 22:40:54.920  3831  3831 D VRI[Launcher]: setWindowStopped stopped:true
+05-30 22:40:54.933  4777 24556 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:3831,uid:10109,hasForegroundActivities:0
+05-30 22:40:54.934  6939  6979 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:3831, uid:10109, foregroundActivities:false
+05-30 22:40:54.934  4777  6655 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:3831,uid:10109,hasForegroundActivities:0
+05-30 22:40:54.934  4777  6984 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=-1ms what=2 obj=com.oplus.atlas.OplusAtlasEvent@30cc4d8 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-30 22:40:54.933 27074 27272 I BtGatt.ScanManager: msg.what = 6
+05-30 22:40:54.938 27074 27074 I OplusCustomScanStrategy: msg.what = 6
+05-30 22:40:54.942  8818  8845 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+05-30 22:40:54.946  1488  1488 D Layer   : reparent to null sequence=211292, seq[6], name=com.android.launcher/com.android.launcher.Launcher#211292
+05-30 22:40:54.946  1488  1488 D Layer   : reparent to null sequence=211293, seq[6], name=com.android.launcher/com.android.launcher.Launcher#211293
+05-30 22:40:54.946  1488  1488 D OplusLayer: ~Layer() sequence=211293, name=com.android.launcher/com.android.launcher.Launcher#211293
+05-30 22:40:54.946  1488  1488 D OplusLayer: ~Layer() sequence=211292, name=com.android.launcher/com.android.launcher.Launcher#211292
+05-30 22:40:54.949  2006  4495 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+05-30 22:40:54.954  2006  4495 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-30 22:40:54.960  2006  4495 D OplusUIFirst_FB: it.omarkiarafederico.skitracker activity event: []
+05-30 22:40:54.960  2006  4495 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:54.961  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: PAUSED
+05-30 22:40:54.961  8818  8818 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=it.omarkiarafederico.skitracker/.view.skimap.MapActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=it.omarkiarafederico.skitracker/.view.skimap.MapActivity mCallingUid=10334 }, activity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6
+05-30 22:40:54.962  2006  4495 D OplusUIFirst_FB: it.omarkiarafederico.skitracker activity event: []
+05-30 22:40:54.962  2006  4495 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:54.962  2006  4495 D OplusUIFirst_FB: handleParaSwitch it.omarkiarafederico.skitracker null null 1
+05-30 22:40:54.962  2006  4495 D OplusUIFirst_FB: it.omarkiarafederico.skitracker activity event: []
+05-30 22:40:54.962  2006  4495 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:54.962  2006  4495 D OplusUIFirst_FB: handleParaSwitch it.omarkiarafederico.skitracker null null 1
+05-30 22:40:54.963  1366  1537 E ANDR-PERF-LM: MetaMeter: handleAsync() 166: AdaptLaunch Invalid Async
+05-30 22:40:54.963  1488  1488 D Layer   : reparent to null sequence=211310, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211310
+05-30 22:40:54.963  1488  1488 D Layer   : reparent to null sequence=211311, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211311
+05-30 22:40:54.965  1488  1705 I SurfaceFlinger: [SF client] NEW(0xb400007ef7c59a40) for (3450:com.android.systemui)
+05-30 22:40:54.966  3450  3573 W OplusSlideAnimOptHelper: initScrollOpt: not running in mainthread
+05-30 22:40:54.966  2006  4495 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{53aca87 u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity} t18672}
+05-30 22:40:54.966  3450  3573 D WindowManager: Add to mViews: android.widget.FrameLayout{cfe1099 V.E...... ......I. 0,0-0,0},pkg= it.omarkiarafederico.skitracker
+05-30 22:40:54.974  3450  3573 D InputEventReceiver: Input log is disabled
+05-30 22:40:54.979  1488  1488 D OplusLayer: ~Layer() sequence=211311, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211311
+05-30 22:40:54.979  1488  1488 D OplusLayer: ~Layer() sequence=211310, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211310
+05-30 22:40:54.980  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f in: PRE_ON_CREATE
+05-30 22:40:54.981  8818  8818 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+05-30 22:40:54.982  2006  6376 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-30 22:40:54.984  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:54.984  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:54.984  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:54.984  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:54.984  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:54.984  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:54.985  3450  3573 D BufferQueueConsumer: [](id:d7a0000417f,api:0,p:-1,c:3450) connect: controlledByApp=false
+05-30 22:40:54.986  3450  3695 D BufferQueueProducer: [VRI[skitracker]#16724(BLAST Consumer)16724](id:d7a0000417f,api:1,p:3450,c:3450) connect: api=1 producerControlledByApp=true
+05-30 22:40:54.986  3450  3573 D VRI[skitracker]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:54.990  3450  3695 D VRI[skitracker]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-30 22:40:54.990   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.cacert@1.0::IService/default in either framework or device VINTF manifest.
+05-30 22:40:54.990  3450  3695 W Parcel  : Expecting binder but got null!
+05-30 22:40:54.990  3450  3573 D VRI[skitracker]: draw finished.
+05-30 22:40:54.990  3958  5753 E CACERT_n: failed to get HAL service
+05-30 22:40:54.991  3958  5753 E CACERT_n: service not available
+05-30 22:40:54.991  3958  5753 E CACERT_n: certificate request failed with error=-2
+05-30 22:40:54.995  1488  1488 D OplusLayer: (211318,Splash Screen it.omarkiarafederico.skitracker#211318,com.android.systemui) setBuffer
+05-30 22:40:54.996  2006  3093 D LocationManagerService: incoming location from: network
+05-30 22:40:54.998  2006  3093 D LocationManagerService: incoming location from: network
+05-30 22:40:55.006  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:55.006  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:55.006  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:55.012  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:55.012  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:55.012  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:55.013  1488  1488 D Layer   : reparent to null sequence=211314, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211314
+05-30 22:40:55.013  1488  1488 D Layer   : reparent to null sequence=211315, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211315
+05-30 22:40:55.023  8818  8818 I SkiTracker GPS Location: Trying to get GPS location.
+05-30 22:40:55.029  1488  1488 D OplusLayer: ~Layer() sequence=211315, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211315
+05-30 22:40:55.029  1488  1488 D OplusLayer: ~Layer() sequence=211314, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211314
+05-30 22:40:55.030  1488  1488 I DispPerfService: updateLayerMask 0
+05-30 22:40:55.032  8818  8818 W ActionBarDrawerToggle: DrawerToggle may not show up because NavigationIcon is not visible. You may need to call actionbar.setDisplayHomeAsUpEnabled(true);
+05-30 22:40:55.033  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f in: CREATED
+05-30 22:40:55.033  8818  8818 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f
+05-30 22:40:55.035  8818  8832 I rico.skitracker: Compiler allocated 4148KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+05-30 22:40:55.040  8818  8818 I OsmDroid: Using tile source: Mapnik
+05-30 22:40:55.040  8818  8818 I OsmDroid: Tile cache increased from 0 to 9
+05-30 22:40:55.041  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.042 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.045  8818  8862 I SkiTracker API Call: URL richiesta API: https://nominatim.openstreetmap.org/reverse?lat=43.4814&lon=12.7012&format=geojson&extratags=1&zoom=15
+05-30 22:40:55.048  8818  8862 D TrafficStats: tagSocket(176) with statsTag=0xffffffff, statsUid=-1
+05-30 22:40:55.070  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.071 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.131  3450  3695 D BufferQueueProducer: [VRI[skitracker]#16723(BLAST Consumer)16723](id:d7a0000417e,api:1,p:3450,c:3450) disconnect: api 1
+05-30 22:40:55.135  3450  3573 D BufferQueueConsumer: [VRI[skitracker]#16723(BLAST Consumer)16723](id:d7a0000417e,api:0,p:-1,c:3450) disconnect
+05-30 22:40:55.135  3450  3573 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-30 22:40:55.135  3450  3573 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@56839d1
+05-30 22:40:55.135  3450  3573 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-30 22:40:55.135  3450  3573 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@7a47c36
+05-30 22:40:55.136  2006  4495 W InputManager-JNI: Input channel object '447abf7 Splash Screen it.omarkiarafederico.skitracker (client)' was disposed without first being removed with the input manager!
+05-30 22:40:55.145  1488  1488 D Layer   : reparent to null sequence=211312, seq[33], name=Surface(name=5089cfd it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity)/@0xfc3b84 - animation-leash of starting_reveal#211312
+05-30 22:40:55.163  8818  8909 D VRI[MapActivity]: dispatchAppVisibility visible:false
+05-30 22:40:55.178  1488  1488 D Layer   : reparent to null sequence=211302, seq[5], name=Splash Screen it.omarkiarafederico.skitracker#211302
+05-30 22:40:55.178  1488  1488 D Layer   : reparent to null sequence=211321, seq[22], name=Surface(name=ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x7c3c250 - animation-leash of app_transition#211321
+05-30 22:40:55.178  1488  1488 D Layer   : reparent to null sequence=211301, seq[4], name=447abf7 Splash Screen it.omarkiarafederico.skitracker#211301
+05-30 22:40:55.178  1488  1488 D Layer   : reparent to null sequence=211322, seq[1], name=Surface(name=ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x7c3c250 - animation-bounds#211322
+05-30 22:40:55.178  1488  1488 D Layer   : reparent to null sequence=211320, seq[2], name=Surface(name=ActivityRecord{53aca87 u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x535784d - animation-bounds#211320
+05-30 22:40:55.178  1488  1488 D Layer   : reparent to null sequence=211319, seq[24], name=Surface(name=ActivityRecord{53aca87 u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x535784d - animation-leash of app_transition#211319
+05-30 22:40:55.178  1488  1488 D OplusLayer: ~Layer() sequence=211301, name=447abf7 Splash Screen it.omarkiarafederico.skitracker#211301
+05-30 22:40:55.178  1488  1488 D OplusLayer: ~Layer() sequence=211322, name=Surface(name=ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x7c3c250 - animation-bounds#211322
+05-30 22:40:55.179  1488  1488 D OplusLayer: ~Layer() sequence=211321, name=Surface(name=ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x7c3c250 - animation-leash of app_transition#211321
+05-30 22:40:55.179  1488  1488 D OplusLayer: ~Layer() sequence=211320, name=Surface(name=ActivityRecord{53aca87 u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x535784d - animation-bounds#211320
+05-30 22:40:55.179  1488  1488 D OplusLayer: ~Layer() sequence=211319, name=Surface(name=ActivityRecord{53aca87 u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity})/@0x535784d - animation-leash of app_transition#211319
+05-30 22:40:55.180  1488  1488 D OplusLayer: ~Layer() sequence=211302, name=Splash Screen it.omarkiarafederico.skitracker#211302
+05-30 22:40:55.180  1488  1488 I DispPerfService: updateLayerMask 0
+05-30 22:40:55.242  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.243 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.272  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.272 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.422  8818  8862 I SkiTracker API Call w/XML: URL richiesta API: https://overpass-api.de/api/interpreter
+05-30 22:40:55.423  8818  8862 D TrafficStats: tagSocket(179) with statsTag=0xffffffff, statsUid=-1
+05-30 22:40:55.439  4808  4822 E horae   : 0: back:32651,frame:33032,front:33347, 3, +(6414), 1 ,32000,35909,38068,39761,35926
+05-30 22:40:55.444  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.445 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.463  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; CpuTime = 4833 ms; CpuTotalTime = 10618 ms
+05-30 22:40:55.463  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; CpuKernelTime = 1621 ms; CpuTotalKernelTime = 3729 ms
+05-30 22:40:55.463  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; CpuUserTime = 3212 ms; CpuTotalUserTime = 6889 ms
+05-30 22:40:55.463  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; CpuPower = 0.2598565277777778 mAh.; CpuTotalPower = 0.6144818055555556 mAh.
+05-30 22:40:55.463  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; JobCount = 3; JobTime = 794; JobTotalCount = 2; JobTotalTime = 709
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; WakeLockTime = 792 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 694 ms; WakeLockTotalPower = 0.0012530555555555556 mAh.
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; MobileRxBytes = 1261718957 Bytes; MobileTxBytes = 64529895 Bytes; MobileRxPackets = 1994987 ; MobileTxPackets = 241723 ; MobileActiveCount = 20 ; MobileActiveTime = 5971 ; MobileTotalRxBytes = 1261824535 Bytes; MobileTotalTxBytes = 64556494 Bytes; MobileTotalRxPackets = 1995145 ; MobileTotalTxPackets = 241858 ; MobileTotalActiveCount = 48 ; MobileTotalActiveTime = 13197
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; MobileRxPacketsPower = 2.4148701898271603 mAh; MobileTxPacketsPower = 0.2925982309135802 mAh; MobileTotalPower = 2.7074684207407405 mAh; MobileTotalRxPacketsPower = 2.4150614439506164 mAh; MobileTotalTxPacketsPower = 0.2927616442469136 mAh; MobileTotalTotalPower = 2.70782308819753 mAh
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.464  6503  7369 E Battery : AppStats: Uid = 10357; pkgName = com.microsoft.teams; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; CpuTime = 42782 ms; CpuTotalTime = 42452 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; CpuKernelTime = 13462 ms; CpuTotalKernelTime = 16871 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; CpuUserTime = 29320 ms; CpuTotalUserTime = 25581 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; CpuPower = 2.02981625 mAh.; CpuTotalPower = 2.29287597222222 mAh.
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 0
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; WakeLockTime = 1678 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 3292 ms; WakeLockTotalPower = 0.005943888888888889 mAh.
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; MobileRxBytes = 1430413095 Bytes; MobileTxBytes = 259856490 Bytes; MobileRxPackets = 1644865 ; MobileTxPackets = 1275779 ; MobileActiveCount = 63 ; MobileActiveTime = 118080 ; MobileTotalRxBytes = 1660809 Bytes; MobileTotalTxBytes = 219123 Bytes; MobileTotalRxPackets = 1897 ; MobileTotalTxPackets = 1768 ; MobileTotalActiveCount = 93 ; MobileTotalActiveTime = 177995
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; MobileRxPacketsPower = 1.9910583150617283 mAh; MobileTxPacketsPower = 1.5442911036049383 mAh; MobileTotalPower = 3.5353494186666667 mAh; MobileTotalRxPacketsPower = 0.0022962599506171077 mAh; MobileTotalTxPacketsPower = 0.0021401094320985248 mAh; MobileTotalTotalPower = 0.0044363693827151884 mAh
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.469  6503  7369 E Battery : AppStats: Uid = 10296; pkgName = com.puzio.fantamaster; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.473  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.473 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; CpuTime = 2392820 ms; CpuTotalTime = 1562010 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; CpuKernelTime = 615288 ms; CpuTotalKernelTime = 585988 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; CpuUserTime = 1777532 ms; CpuTotalUserTime = 976022 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; CpuPower = 85.34538271277778 mAh.; CpuTotalPower = 53.61424810305561 mAh.
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; AlarmWakeupCount = 1; AlarmTotalWakeupCount = 0
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; JobCount = 47; JobTime = 7414101; JobTotalCount = 66; JobTotalTime = 9800612
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; WakeLockTime = 2258862 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 4990478 ms; WakeLockTotalPower = 9.010585277777778 mAh.
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 6574 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.21913333333333335 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.2438246766408283 mAh
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; MobileRxBytes = 71052852413 Bytes; MobileTxBytes = 2221884556 Bytes; MobileRxPackets = 59246869 ; MobileTxPackets = 9308414 ; MobileActiveCount = 424 ; MobileActiveTime = 3264903 ; MobileTotalRxBytes = 200405689 Bytes; MobileTotalTxBytes = 7193823 Bytes; MobileTotalRxPackets = 168970 ; MobileTotalTxPackets = 30737 ; MobileTotalActiveCount = 617 ; MobileTotalActiveTime = 4147294
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; MobileRxPacketsPower = 71.71650631743209 mAh; MobileTxPacketsPower = 11.267547850271605 mAh; MobileTotalPower = 82.9840541677037 mAh; MobileTotalRxPacketsPower = 0.20453296987653857 mAh; MobileTotalTxPacketsPower = 0.037206189827156066 mAh; MobileTotalTotalPower = 0.24173915970366977 mAh
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; SensorTime = 857441 ms; SensorTotalTime = 160427 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; SensorPower = 0.33702194690704346 mAh; SensorTotalPower = 0.06305664707906544 mAh
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.475  6503  7369 E Battery : AppStats: Uid = 10359; pkgName = com.instagram.android; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; CpuTime = 6438 ms; CpuTotalTime = 9111 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; CpuKernelTime = 2196 ms; CpuTotalKernelTime = 3954 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; CpuUserTime = 4242 ms; CpuTotalUserTime = 5157 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; CpuPower = 0.3377613888888889 mAh.; CpuTotalPower = 0.47952805555555494 mAh.
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; JobCount = 21; JobTime = 4340; JobTotalCount = 30; JobTotalTime = 5239
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; WakeLockTime = 114 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 2114 ms; WakeLockTotalPower = 0.0038169444444444444 mAh.
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; MobileRxBytes = 72759422 Bytes; MobileTxBytes = 36523360 Bytes; MobileRxPackets = 197640 ; MobileTxPackets = 193143 ; MobileActiveCount = 58 ; MobileActiveTime = 127702 ; MobileTotalRxBytes = 501460 Bytes; MobileTotalTxBytes = 272585 Bytes; MobileTotalRxPackets = 1418 ; MobileTotalTxPackets = 1364 ; MobileTotalActiveCount = 87 ; MobileTotalActiveTime = 231861
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; MobileRxPacketsPower = 0.23923712 mAh; MobileTxPacketsPower = 0.2337936402962963 mAh; MobileTotalPower = 0.4730307602962963 mAh; MobileTotalRxPacketsPower = 0.0017164452345680148 mAh; MobileTotalTxPacketsPower = 0.0016510799012346145 mAh; MobileTotalTotalPower = 0.0033675251358026848 mAh
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.480  6503  7369 E Battery : AppStats: Uid = 10266; pkgName = com.linkedin.android; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; CpuTime = 2622 ms; CpuTotalTime = 61882 ms
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; CpuKernelTime = 905 ms; CpuTotalKernelTime = 13791 ms
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; CpuUserTime = 1717 ms; CpuTotalUserTime = 48091 ms
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; CpuPower = 0.1544775 mAh.; CpuTotalPower = 2.8204797222222218 mAh.
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; JobCount = 2; JobTime = 680; JobTotalCount = 5; JobTotalTime = 2416
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; WakeLockTime = 0 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 216 ms; WakeLockTotalPower = 3.9E-4 mAh.
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.484  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; MobileRxBytes = 1323954167 Bytes; MobileTxBytes = 194142949 Bytes; MobileRxPackets = 1493900 ; MobileTxPackets = 1079316 ; MobileActiveCount = 14 ; MobileActiveTime = 29930 ; MobileTotalRxBytes = 2077195 Bytes; MobileTotalTxBytes = 286285 Bytes; MobileTotalRxPackets = 2268 ; MobileTotalTxPackets = 1815 ; MobileTotalActiveCount = 26 ; MobileTotalActiveTime = 57896
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; MobileRxPacketsPower = 1.8083198419753086 mAh; MobileTxPacketsPower = 1.3064787057777778 mAh; MobileTotalPower = 3.1147985477530864 mAh; MobileTotalRxPacketsPower = 0.0027453439999993723 mAh; MobileTotalTxPacketsPower = 0.0021970014814807204 mAh; MobileTotalTotalPower = 0.004942345481481425 mAh
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.485  6503  7369 E Battery : AppStats: Uid = 10293; pkgName = com.mobilefootie.wc2010; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; CpuTime = 110765 ms; CpuTotalTime = 14974 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; CpuKernelTime = 19287 ms; CpuTotalKernelTime = 5136 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; CpuUserTime = 91478 ms; CpuTotalUserTime = 9838 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; CpuPower = 4.79210526 mAh.; CpuTotalPower = 0.7315262322222209 mAh.
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; JobCount = 3; JobTime = 120286; JobTotalCount = 5; JobTotalTime = 83009
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; WakeLockTime = 22143 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 46468 ms; WakeLockTotalPower = 0.08390055555555556 mAh.
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; MobileRxBytes = 8483483923 Bytes; MobileTxBytes = 4651148089 Bytes; MobileRxPackets = 8126601 ; MobileTxPackets = 4574648 ; MobileActiveCount = 63 ; MobileActiveTime = 354645 ; MobileTotalRxBytes = 8481124982 Bytes; MobileTotalTxBytes = 4650852356 Bytes; MobileTotalRxPackets = 8124386 ; MobileTotalTxPackets = 4573592 ; MobileTotalActiveCount = 72 ; MobileTotalActiveTime = 222959
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; MobileRxPacketsPower = 9.836999689481482 mAh; MobileTxPacketsPower = 5.537470211160493 mAh; MobileTotalPower = 15.374469900641976 mAh; MobileTotalRxPacketsPower = 9.83431850034568 mAh; MobileTotalTxPacketsPower = 5.536191955753085 mAh; MobileTotalTotalPower = 15.37051045609876 mAh
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; SensorTime = 1018554 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; SensorPower = 0.1127479849383235 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; CameraTime = 55361 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; CameraPower = 8.181125555555555 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.489  6503  7369 E Battery : AppStats: Uid = 10294; pkgName = org.telegram.messenger; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; CpuTime = 19049 ms; CpuTotalTime = 41520 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; CpuKernelTime = 4333 ms; CpuTotalKernelTime = 11076 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; CpuUserTime = 14716 ms; CpuTotalUserTime = 30444 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; CpuPower = 0.6980905555555555 mAh.; CpuTotalPower = 1.7512694444444434 mAh.
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; JobCount = 5; JobTime = 4275; JobTotalCount = 13; JobTotalTime = 16608
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; WakeLockTime = 3946 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 12309 ms; WakeLockTotalPower = 0.022224583333333332 mAh.
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; MobileRxBytes = 385858423 Bytes; MobileTxBytes = 106142769 Bytes; MobileRxPackets = 501765 ; MobileTxPackets = 360724 ; MobileActiveCount = 4 ; MobileActiveTime = 24424 ; MobileTotalRxBytes = 2481208 Bytes; MobileTotalTxBytes = 621463 Bytes; MobileTotalRxPackets = 3115 ; MobileTotalTxPackets = 2133 ; MobileTotalActiveCount = 32 ; MobileTotalActiveTime = 62543
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; MobileRxPacketsPower = 0.607371045925926 mAh; MobileTxPacketsPower = 0.43664526854320984 mAh; MobileTotalPower = 1.0440163144691357 mAh; MobileTotalRxPacketsPower = 0.0037706113580245892 mAh; MobileTotalTxPacketsPower = 0.002581930666666399 mAh; MobileTotalTotalPower = 0.00635254202469171 mAh
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.494  6503  7369 E Battery : AppStats: Uid = 10355; pkgName = com.microsoft.office.outlook; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.500  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; CpuTime = 251309 ms; CpuTotalTime = 298663 ms
+05-30 22:40:55.500  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; CpuKernelTime = 70967 ms; CpuTotalKernelTime = 76703 ms
+05-30 22:40:55.500  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; CpuUserTime = 180342 ms; CpuTotalUserTime = 221960 ms
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; CpuPower = 10.436026944444444 mAh.; CpuTotalPower = 12.467612527777764 mAh.
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; AlarmWakeupCount = 6; AlarmTotalWakeupCount = 19
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; JobCount = 24; JobTime = 2349; JobTotalCount = 27; JobTotalTime = 14804
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; SyncCount = 4; SyncTime = 1934; SyncTotalCount = 5; SyncTotalTime = 9137
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; WakeLockTime = 7522 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 84642 ms; WakeLockTotalPower = 0.15282583333333333 mAh.
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; MobileRxBytes = 1681579078 Bytes; MobileTxBytes = 1230583437 Bytes; MobileRxPackets = 2637952 ; MobileTxPackets = 2294887 ; MobileActiveCount = 369 ; MobileActiveTime = 563072 ; MobileTotalRxBytes = 3767102 Bytes; MobileTotalTxBytes = 2126228 Bytes; MobileTotalRxPackets = 7491 ; MobileTotalTxPackets = 7096 ; MobileTotalActiveCount = 769 ; MobileTotalActiveTime = 1471110
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; MobileRxPacketsPower = 3.193159477728395 mAh; MobileTxPacketsPower = 2.777889883654321 mAh; MobileTotalPower = 5.9710493613827165 mAh; MobileTotalRxPacketsPower = 0.00906762429629504 mAh; MobileTotalTxPacketsPower = 0.008589488987652771 mAh; MobileTotalTotalPower = 0.017657113283948256 mAh
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; SensorTime = 2650152 ms; SensorTotalTime = 1135582 ms
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; SensorPower = 0.07448469812516123 mAh; SensorTotalPower = 0.031641476904042065 mAh
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; CameraTime = 5169 ms; CameraTotalTime = 919 ms
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; CameraPower = 0.7638633333333333 mAh; CameraTotalPower = 0.13580777777777797 ms
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.501  6503  7369 E Battery : AppStats: Uid = 10275; pkgName = com.whatsapp; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.505  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; CpuTime = 267 ms; CpuTotalTime = -10137 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; CpuKernelTime = 92 ms; CpuTotalKernelTime = -1946 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; CpuUserTime = 175 ms; CpuTotalUserTime = -8191 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; CpuPower = 0.017325694444444446 mAh.; CpuTotalPower = -0.4023940277777781 mAh.
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 0
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; WakeLockTime = 8 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = -53 ms; WakeLockTotalPower = -9.569444444444445E-5 mAh.
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; MobileRxBytes = 8302508 Bytes; MobileTxBytes = 507352 Bytes; MobileRxPackets = 7043 ; MobileTxPackets = 5514 ; MobileActiveCount = 0 ; MobileActiveTime = 0 ; MobileTotalRxBytes = -906903 Bytes; MobileTotalTxBytes = -30198 Bytes; MobileTotalRxPackets = -652 ; MobileTotalTxPackets = -405 ; MobileTotalActiveCount = 1 ; MobileTotalActiveTime = 30984
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; MobileRxPacketsPower = 0.00852533412345679 mAh; MobileTxPacketsPower = 0.006674526814814815 mAh; MobileTotalPower = 0.015199860938271605 mAh; MobileTotalRxPacketsPower = -7.892258765432075E-4 mAh; MobileTotalTxPacketsPower = -4.902399999999953E-4 mAh; MobileTotalTotalPower = -0.001279465876543204 mAh
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; GpsTime = 5343368 ms; GpsTotalTime = 2797176 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; GpsPower = 111.32016666666667 mAh; GpsTotalPower = 58.27449999999998 mAh
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.506  6503  7369 E Battery : AppStats: Uid = 10277; pkgName = it.omarkiarafederico.skitracker; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; CpuTime = 0 ms; CpuTotalTime = 640 ms
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; CpuKernelTime = 0 ms; CpuTotalKernelTime = 236 ms
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; CpuUserTime = 0 ms; CpuTotalUserTime = 404 ms
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; CpuPower = 0.0 mAh.; CpuTotalPower = 0.027743263888888925 mAh.
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 177148
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; WakeLockTime = 0 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 1612 ms; WakeLockTotalPower = 0.0029105555555555556 mAh.
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; MobileRxBytes = 5149438474 Bytes; MobileTxBytes = 96461221 Bytes; MobileRxPackets = 3940426 ; MobileTxPackets = 905170 ; MobileActiveCount = 0 ; MobileActiveTime = 0 ; MobileTotalRxBytes = 40908 Bytes; MobileTotalTxBytes = 7386 Bytes; MobileTotalRxPackets = 54 ; MobileTotalTxPackets = 53 ; MobileTotalActiveCount = 4 ; MobileTotalActiveTime = 1078
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; MobileRxPacketsPower = 4.76976405491358 mAh; MobileTxPacketsPower = 1.0956803476543209 mAh; MobileTotalPower = 5.865444402567901 mAh; MobileTotalRxPacketsPower = 6.536533333445504E-5 mAh; MobileTotalTxPacketsPower = 6.41548641975298E-5 mAh; MobileTotalTotalPower = 1.2952019753242894E-4 mAh
+05-30 22:40:55.510  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.511  6503  7369 E Battery : AppStats: Uid = 10282; pkgName = com.dazn; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; CpuTime = 6725 ms; CpuTotalTime = 3292 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; CpuKernelTime = 844 ms; CpuTotalKernelTime = 978 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; CpuUserTime = 5881 ms; CpuTotalUserTime = 2314 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; CpuPower = 0.20574166666666666 mAh.; CpuTotalPower = 0.11574180555555552 mAh.
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; AlarmWakeupCount = 1; AlarmTotalWakeupCount = 4
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 0
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; WakeLockTime = 54 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 352 ms; WakeLockTotalPower = 6.355555555555555E-4 mAh.
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; MobileRxBytes = 1031269 Bytes; MobileTxBytes = 386920 Bytes; MobileRxPackets = 2294 ; MobileTxPackets = 2562 ; MobileActiveCount = 0 ; MobileActiveTime = 0 ; MobileTotalRxBytes = 12527 Bytes; MobileTotalTxBytes = 5239 Bytes; MobileTotalRxPackets = 25 ; MobileTotalTxPackets = 32 ; MobileTotalActiveCount = 3 ; MobileTotalActiveTime = 0
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; MobileRxPacketsPower = 0.002776816197530864 mAh; MobileTxPacketsPower = 0.0031012219259259257 mAh; MobileTotalPower = 0.00587803812345679 mAh; MobileTotalRxPacketsPower = 3.0261728395061024E-5 mAh; MobileTotalTxPacketsPower = 3.8735012345678544E-5 mAh; MobileTotalTotalPower = 6.899674074074044E-5 mAh
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; SensorTime = 0 ms; SensorTotalTime = 0 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; SensorPower = 0.0 mAh; SensorTotalPower = 0.0 mAh
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.514  6503  7369 E Battery : AppStats: Uid = 10290; pkgName = com.masarat.salati; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; CpuTime = 6084 ms; CpuTotalTime = 7156 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; CpuKernelTime = 2040 ms; CpuTotalKernelTime = 2753 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; CpuUserTime = 4044 ms; CpuTotalUserTime = 4403 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; CpuPower = 0.3111711111111111 mAh.; CpuTotalPower = 0.36351805555555544 mAh.
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 0
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; WakeLockTime = 0 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 0 ms; WakeLockTotalPower = 0.0 mAh.
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; MobileRxBytes = 6990781 Bytes; MobileTxBytes = 2265731 Bytes; MobileRxPackets = 18588 ; MobileTxPackets = 17092 ; MobileActiveCount = 8 ; MobileActiveTime = 3075 ; MobileTotalRxBytes = 63779 Bytes; MobileTotalTxBytes = 19848 Bytes; MobileTotalRxPackets = 173 ; MobileTotalTxPackets = 154 ; MobileTotalActiveCount = 19 ; MobileTotalActiveTime = 11058
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; MobileRxPacketsPower = 0.022500200296296295 mAh; MobileTxPacketsPower = 0.0206893384691358 mAh; MobileTotalPower = 0.04318953876543209 mAh; MobileTotalRxPacketsPower = 2.094111604938366E-4 mAh; MobileTotalTxPacketsPower = 1.8641224691357677E-4 mAh; MobileTotalTotalPower = 3.9582340740740296E-4 mAh
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; SensorTime = 31421 ms; SensorTotalTime = 38382 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; SensorPower = 0.012350198812782764 mAh; SensorTotalPower = 0.015086258761584759 mAh
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.518  6503  7369 E Battery : AppStats: Uid = 10347; pkgName = com.oplus.melody; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; CpuTime = 648292 ms; CpuTotalTime = 620171 ms
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; CpuKernelTime = 215278 ms; CpuTotalKernelTime = 235500 ms
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; CpuUserTime = 433014 ms; CpuTotalUserTime = 384671 ms
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; CpuPower = 23.40922986111111 mAh.; CpuTotalPower = 19.259854861111005 mAh.
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; AlarmWakeupCount = 13; AlarmTotalWakeupCount = 49
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; JobCount = 36; JobTime = 7873; JobTotalCount = 34; JobTotalTime = 10238
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; WakeLockTime = 1217 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 7531 ms; WakeLockTotalPower = 0.013597638888888888 mAh.
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 21323 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.7107666666666667 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.735458009974162 mAh
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; MobileRxBytes = 34181704860 Bytes; MobileTxBytes = 1326592989 Bytes; MobileRxPackets = 28875522 ; MobileTxPackets = 4359192 ; MobileActiveCount = 148 ; MobileActiveTime = 704243 ; MobileTotalRxBytes = 42691592 Bytes; MobileTotalTxBytes = 3950089 Bytes; MobileTotalRxPackets = 38797 ; MobileTotalTxPackets = 10170 ; MobileTotalActiveCount = 199 ; MobileTotalActiveTime = 959911
+05-30 22:40:55.523  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; MobileRxPacketsPower = 34.952928161185184 mAh; MobileTxPacketsPower = 5.276667373037037 mAh; MobileTotalPower = 40.22959553422222 mAh; MobileTotalRxPacketsPower = 0.04696257106173363 mAh; MobileTotalTxPacketsPower = 0.012310471111113941 mAh; MobileTotalTotalPower = 0.05927304217286178 mAh
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; SensorTime = 226329 ms; SensorTotalTime = 56184 ms
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; SensorPower = 0.08895987272262573 mAh; SensorTotalPower = 0.02208335732575506 mAh
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.524  6503  7369 E Battery : AppStats: Uid = 10261; pkgName = com.facebook.katana; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; CpuTime = 320469 ms; CpuTotalTime = 844447 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; CpuKernelTime = 36191 ms; CpuTotalKernelTime = 7527 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; CpuUserTime = 284278 ms; CpuTotalUserTime = 836920 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; CpuPower = 14.826729444444444 mAh.; CpuTotalPower = 50.753230000000066 mAh.
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; AlarmWakeupCount = 0; AlarmTotalWakeupCount = 0
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; JobCount = 0; JobTime = 0; JobTotalCount = 0; JobTotalTime = 0
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; SyncCount = 0; SyncTime = 0; SyncTotalCount = 0; SyncTotalTime = 0
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; WakeLockTime = 0 ms; WakeLockPower = 0.0 mAh.; WakeLockTotalTime = 0 ms; WakeLockTotalPower = 0.0 mAh.
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; WifiRxBytes = 164777499 Bytes; WifiTxBytes = 9564928 Bytes; WifiRxPackets = 171987 ; WifiTxPackets = 154869 ; WiFiScanTimeMs = 0 ; WiFiBatchScanTimeMs = 0
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; WifiRxPacketsPower = 1.065363883972168 mAh; WifiTxPacketsPower = 0.9593273997306824 mAh; WifiScanPower = 0.0 mAh; WifiBatchScanPower = 0.0 mAh; WiFiTotalPower = 2.024691343307495 mAh
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; MobileRxBytes = 321548476 Bytes; MobileTxBytes = 55203918 Bytes; MobileRxPackets = 671285 ; MobileTxPackets = 852740 ; MobileActiveCount = 23 ; MobileActiveTime = 31327 ; MobileTotalRxBytes = 725340 Bytes; MobileTotalTxBytes = 171946 Bytes; MobileTotalRxPackets = 1679 ; MobileTotalTxPackets = 2148 ; MobileTotalActiveCount = 21 ; MobileTotalActiveTime = 29347
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; MobileRxPacketsPower = 0.8125697738271604 mAh; MobileTxPacketsPower = 1.0322154508641974 mAh; MobileTotalPower = 1.8447852246913579 mAh; MobileTotalRxPacketsPower = 0.0020323776790126535 mAh; MobileTotalTxPacketsPower = 0.0026000877037031245 mAh; MobileTotalTotalPower = 0.004632465382717665 mAh
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; GpsTime = 0 ms; GpsTotalTime = 0 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; GpsPower = 0.0 mAh; GpsTotalPower = 0.0 mAh
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; SensorTime = 0 ms; SensorTotalTime = 2662 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; SensorPower = 0.0 mAh; SensorTotalPower = 0.001046307384967804 mAh
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; CameraTime = 0 ms; CameraTotalTime = 0 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; CameraPower = 0.0 mAh; CameraTotalPower = 0.0 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; FlashLightTime = 0 ms; FlashLightTotalTime = 0 ms
+05-30 22:40:55.527  6503  7369 E Battery : AppStats: Uid = 10011; pkgName = com.supercell.clashroyale; FlashLightPower = 0.0 mAh; FlashLightTotalPower = 0.0 mAh
+05-30 22:40:55.533  2006  3060 D Osense-DecisionMaker: notifyDelayedSceneToPolicy
+05-30 22:40:55.533  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5573
+05-30 22:40:55.533  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5573
+05-30 22:40:55.533  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5573
+05-30 22:40:55.533  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5573
+05-30 22:40:55.574  4119  4615 I Athena  : CommonAction: 22,5576,131,3323,5632,41,442,466,2500,4908,2894,1722,0.0,22
+05-30 22:40:55.646  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.647 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.674  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.675 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.722  5513  8885 D DebugReportServiceHidlClient: getReport 1.1...
+05-30 22:40:55.722  5513  8885 D DebugReportServiceHidlClient: getReport 1.1 success: true
+05-30 22:40:55.722  5513  8885 D DebugReportServiceHidlClient: getReport 1.0 success: true
+05-30 22:40:55.752  2006  4189 D WifiNl80211Manager: Scan result ready event
+05-30 22:40:55.752  2006  4189 D WifiNative: Scan result ready event
+05-30 22:40:55.753  2006  2952 D OplusScanResultsProxy: fewApNum:5
+05-30 22:40:55.755  2006  2952 D WakeupController: Attempted to handleScanResults while not enabled
+05-30 22:40:55.775  2006  4189 D LocationManagerService: incoming location from: network
+05-30 22:40:55.775  2006  4189 D LocationManagerService: incoming location from: network
+05-30 22:40:55.848  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.850 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.855  2006  4189 D LocationManagerService: gps provider added registration from 10334/it.omarkiarafederico.skitracker/EE737AAB -> Request[@0 HIGH_ACCURACY, WorkSource{10334 it.omarkiarafederico.skitracker}] permissionLevel: 2 permitted: true
+05-30 22:40:55.855  2006  4189 V OplusLocationStatusMonitor: give up it, I have record it early
+05-30 22:40:55.856  2006  4189 D LocationManagerService: registration onActive from uid: 10334 package: it.omarkiarafederico.skitracker
+05-30 22:40:55.856  2006  6376 D LocationManagerService: network provider added registration from 10334/it.omarkiarafederico.skitracker/EE737AAB -> Request[@0 BALANCED, WorkSource{10334 it.omarkiarafederico.skitracker}] permissionLevel: 2 permitted: true
+05-30 22:40:55.857  2006  6376 D LocationManagerService: registration onActive from uid: 10334 package: it.omarkiarafederico.skitracker
+05-30 22:40:55.857  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f in: STARTED
+05-30 22:40:55.858  8818  8818 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f
+05-30 22:40:55.858  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f in: RESUMED
+05-30 22:40:55.858  8818  8818 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f
+05-30 22:40:55.859  1488  2502 I SurfaceFlinger: [SF client] NEW(0xb400007ef76ae700) for (8818:it.omarkiarafederico.skitracker)
+05-30 22:40:55.861  8818  8818 D WindowManager: Add to mViews: DecorView@fe102f[MapActivity],pkg= it.omarkiarafederico.skitracker
+05-30 22:40:55.865  8818  8818 D InputEventReceiver: Input log is disabled
+05-30 22:40:55.866  8818  8818 D VRI[MapActivity]: onFocusEvent false
+05-30 22:40:55.866  8818  8818 I Choreographer: Skipped 53 frames!  The application may be doing too much work on its main thread.
+05-30 22:40:55.876  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:55.878 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:55.882  2006  2870 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-30 22:40:55.884  8818  8818 D BufferQueueConsumer: [](id:227200000001,api:0,p:-1,c:8818) connect: controlledByApp=false
+05-30 22:40:55.885  8818  8856 D BufferQueueProducer: [VRI[MapActivity]#1(BLAST Consumer)1](id:227200000001,api:1,p:8818,c:8818) connect: api=1 producerControlledByApp=true
+05-30 22:40:55.893  1488  1488 D Layer   : reparent to null sequence=211323, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211323
+05-30 22:40:55.893  1488  1488 D Layer   : reparent to null sequence=211324, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211324
+05-30 22:40:55.893  1488  1488 D OplusLayer: ~Layer() sequence=211323, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211323
+05-30 22:40:55.893  1488  1488 D OplusLayer: ~Layer() sequence=211324, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211324
+05-30 22:40:55.903  8818  8818 D VRI[MapActivity]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:55.912  8818  8856 D VRI[MapActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-30 22:40:55.913  8818  8856 W Parcel  : Expecting binder but got null!
+05-30 22:40:55.913  8818  8818 D VRI[MapActivity]: draw finished.
+05-30 22:40:55.918  8818  8818 I SkiTracker GPS Location: Fine Location Allowed
+05-30 22:40:55.926  1488  1488 D OplusLayer: (211327,it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity#211327,it.omarkiarafederico.skitracker) setBuffer
+05-30 22:40:55.928  8818  8909 I OpenGLRenderer: Davey! duration=934ms; Flags=1, FrameTimelineVsyncId=580976466, IntendedVsync=654959145554354, Vsync=654960026147234, InputEventId=0, HandleInputStart=654960033626193, AnimationStart=654960033628016, PerformTraversalsStart=654960035544943, DrawStart=654960069988797, FrameDeadline=654959162221020, FrameInterval=654960033294266, FrameStartTime=16614960, SyncQueued=654960076808120, SyncStart=654960076901193, IssueDrawCommandsStart=654960077259214, SwapBuffers=654960078894787, FrameCompleted=654960080245099, DequeueBufferDuration=15105, QueueBufferDuration=173698, GpuCompleted=654960080245099, SwapBuffersCompleted=654960079316870, DisplayPresentTime=0, CommandSubmissionCompleted=654960078894787,
+05-30 22:40:55.928  8818  8909 I OpenGLRenderer: Davey! duration=941ms; Flags=1, FrameTimelineVsyncId=580976466, IntendedVsync=654959145554354, Vsync=654960026147234, InputEventId=0, HandleInputStart=654960033626193, AnimationStart=654960033628016, PerformTraversalsStart=654960035544943, DrawStart=654960081549370, FrameDeadline=654959178835980, FrameInterval=654960033294266, FrameStartTime=16614960, SyncQueued=654960084352704, SyncStart=654960084434214, IssueDrawCommandsStart=654960084559631, SwapBuffers=654960085704214, FrameCompleted=654960087104683, DequeueBufferDuration=38334, QueueBufferDuration=207291, GpuCompleted=654960087104683, SwapBuffersCompleted=654960086201506, DisplayPresentTime=0, CommandSubmissionCompleted=654960085704214,
+05-30 22:40:55.929  2006  2425 I ActivityTaskManager: Displayed it.omarkiarafederico.skitracker/.view.skimap.MapActivity: +979ms
+05-30 22:40:55.929   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device VINTF manifest.
+05-30 22:40:55.931   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device VINTF manifest.
+05-30 22:40:55.934 21060 15075 I FontLog : (REDACTED) Received query %s, URI %s
+05-30 22:40:55.934 21060 15075 I FontLog : (REDACTED) Query [%s] resolved to %s
+05-30 22:40:55.935 27074 27272 I BtGatt.ScanManager: msg.what = 6
+05-30 22:40:55.935 21060 15075 I FontLog : (REDACTED) Fetch %s end status %s
+05-30 22:40:55.936 27074 27074 I OplusCustomScanStrategy: msg.what = 6
+05-30 22:40:55.938  4174  4212 D NetworkEvent: OplusNetworkEventCbProxy invoke.....onDnsEvent argslen:8
+05-30 22:40:55.939 21060 15075 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-30 22:40:55.941  8818  8968 D TrafficStats: tagSocket(184) with statsTag=0xffffffff, statsUid=-1
+05-30 22:40:55.941  8818  8856 D BufferQueueProducer: [VRI[MapActivity]#0(BLAST Consumer)0](id:227200000000,api:1,p:8818,c:8818) disconnect: api 1
+05-30 22:40:55.944  4174  4212 D NetworkEvent: OplusNetworkEventCbProxy invoke.....onDnsEvent argslen:8
+05-30 22:40:55.944  8818  8969 D TrafficStats: tagSocket(134) with statsTag=0xffffffff, statsUid=-1
+05-30 22:40:55.946  2006  4495 I FocusResolver: updateFocusedWindow, 316bb72 it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity on display 0, reason: Window became focusable. Previous reason: NOT_VISIBLE, result:   FocusedWindows:
+05-30 22:40:55.946  2006  4495 I FocusResolver:     displayId=0, name='316bb72 it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity'
+05-30 22:40:55.947  1488  1488 I DispPerfService: updateLayerMask 0
+05-30 22:40:55.947  8818  8818 D BufferQueueConsumer: [VRI[MapActivity]#0(BLAST Consumer)0](id:227200000000,api:0,p:-1,c:8818) disconnect
+05-30 22:40:55.949  8818  8818 D VRI[MapActivity]: onFocusEvent true
+05-30 22:40:55.949 21060 15075 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+05-30 22:40:55.953  8818  8818 D VRI[MapActivity]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:55.958  8818  8856 D VRI[MapActivity]: Received frameCommittedCallback lastAttemptedDrawFrameNum=3 didProduceBuffer=true syncBuffer=false
+05-30 22:40:55.958  8818  8818 D VRI[MapActivity]: draw finished.
+05-30 22:40:55.964 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3307
+05-30 22:40:55.966 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2137 repeatCheckTimes = 0, locked = false
+05-30 22:40:55.967 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1917 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=it.omarkiarafederico.skitracker fieldId=2131230793 fieldName=null extras=Bundle[{com.oplus.im.SCENES=0}] hintLocales=[]}, false)
+05-30 22:40:55.967 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():1998 ShouldHideHeaderOnInitialState = false
+05-30 22:40:55.968 24377 24377 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2137 repeatCheckTimes = 1, locked = false
+05-30 22:40:55.968  1366  5689 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+05-30 22:40:55.971  1366  5690 E ANDR-PERF-LM: VmRssMeter:: start() 447: Could not find pid, can not collect vmrss data
+05-30 22:40:55.971  1366  5690 E ANDR-PERF-LM: AdaptiveLaunch: writeToDataBase() 64: Meter aborted or could not get meter data for this run
+05-30 22:40:55.976  1488  1488 D Layer   : reparent to null sequence=211313, seq[3], name=Surface(name=af1e532 InputMethod)/@0x1c5ec39 - animation-leash of insets_animation#211313
+05-30 22:40:55.985  8818  8818 D VRI[MapActivity]: setWindowStopped stopped:true
+05-30 22:40:55.986  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: STOPPED
+05-30 22:40:55.986  8818  8818 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=it.omarkiarafederico.skitracker/.view.skimap.MapActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=it.omarkiarafederico.skitracker/.view.skimap.MapActivity mCallingUid=10334 }, activity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6
+05-30 22:40:55.992  2006  6376 D LocationManagerService: registration onInactive from uid: 10334 package: it.omarkiarafederico.skitracker
+05-30 22:40:55.992  2006  6376 D LocationManagerService: gps provider removed registration from 10334/it.omarkiarafederico.skitracker/A8E99ECF
+05-30 22:40:55.992  2006  6376 D LocationManagerService: registration onInactive from uid: 10334 package: it.omarkiarafederico.skitracker
+05-30 22:40:55.992  2006  6376 D LocationManagerService: network provider removed registration from 10334/it.omarkiarafederico.skitracker/A8E99ECF
+05-30 22:40:55.993  1488  1488 D OplusLayer: ~Layer() sequence=211313, name=Surface(name=af1e532 InputMethod)/@0x1c5ec39 - animation-leash of insets_animation#211313
+05-30 22:40:55.994  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6 in: DESTROYED
+05-30 22:40:55.995  8818  8818 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=it.omarkiarafederico.skitracker/.view.skimap.MapActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN flg=0x14000000 cmp=it.omarkiarafederico.skitracker/.view.skimap.MapActivity mCallingUid=10334 }, activity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@987caf6
+05-30 22:40:55.995  8818  8818 D OplusScrollToTopManager: unregisterGuidePopupDismissReceiverInSystemUI
+05-30 22:40:55.995  8818  8818 D OplusScrollToTopManager: Receiver not registered: android.view.OplusScrollToTopManager$1@50be8a3
+05-30 22:40:55.995  8818  8818 D OplusScrollToTopManager: unregisterSystemUIBroadcastReceiver
+05-30 22:40:55.995  8818  8818 D OplusScrollToTopManager: java.lang.IllegalArgumentException: Receiver not registered: android.view.OplusScrollToTopManager$2@805e7a0
+05-30 22:40:55.997  2006  6376 W InputManager-JNI: Input channel object '5089cfd it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity (client)' was disposed without first being removed with the input manager!
+05-30 22:40:56.010  1488  1488 D Layer   : reparent to null sequence=211309, seq[7], name=it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity#211309
+05-30 22:40:56.010  1488  1488 D Layer   : reparent to null sequence=211308, seq[3], name=5089cfd it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity#211308
+05-30 22:40:56.011  1488  1488 D OplusLayer: ~Layer() sequence=211308, name=5089cfd it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity#211308
+05-30 22:40:56.011  1488  1488 D OplusLayer: ~Layer() sequence=211309, name=it.omarkiarafederico.skitracker/it.omarkiarafederico.skitracker.view.skimap.MapActivity#211309
+05-30 22:40:56.026  1488  1488 D Layer   : reparent to null sequence=211300, seq[4], name=ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity}#211300
+05-30 22:40:56.027  1488  1488 D OplusLayer: ~Layer() sequence=211300, name=ActivityRecord{2cd72a u0 it.omarkiarafederico.skitracker/.view.skimap.MapActivity}#211300
+05-30 22:40:56.027  1488  1488 D OplusLayer: ~Layer() sequence=211307, name=122991b ActivityRecordInputSink it.omarkiarafederico.skitracker/.view.skimap.MapActivity#211307
+05-30 22:40:56.050  8818  8845 W OnBackInvokedCallback: OnBackInvokedCallback is not enabled for the application.
+05-30 22:40:56.050  8818  8845 W OnBackInvokedCallback: Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+05-30 22:40:56.051  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:56.053 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:56.069  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:56.069  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:56.069  8818  8818 I oplus.android.OplusFrameworkFactoryImpl: get feature:IOplusDynamicVsyncFeature
+05-30 22:40:56.078  4777 24556 D OplusAtlasService: getAttributeByAppName module:oplus-getStreamMaxVolume packageName:com.google.android.youtube
+05-30 22:40:56.079  2006  6376 I InputDispatcher: setFocusedApplication displayId=0 ActivityRecord{ba833c3 u0 com.android.launcher/.Launcher} t6}
+05-30 22:40:56.080 21654 21654 D AudioManagerExtImpl: getStreamVolume normal, volume index=16
+05-30 22:40:56.081  2006  6376 D Theia.NoFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hist_memory - 0.
+05-30 22:40:56.082  2006  6376 D ActivityTrigger: ActivityTrigger activityPauseTrigger
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_length - 0.
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-cpu-llcc-bw/bw_hwmon/hyst_trigger_count - 0.
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hist_memory - 0.
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hyst_length - 0.
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/class/devfreq/soc:qcom,cpu-llcc-ddr-bw/bw_hwmon/hyst_trigger_count - 0.
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /dev/stune/foreground/schedtune.prefer_idle - 0.
+05-30 22:40:56.082  1406  1406 D ORMS_HAL: OrmsHalService write file /sys/devices/system/cpu/cpu_boost/input_boost_freq - 0:3000000 4:3000000 7:3000000.
+05-30 22:40:56.085  8818  8818 W rico.skitracker: Accessing hidden field Landroid/app/Activity;->mResultCode:I (unsupported, reflection, allowed)
+05-30 22:40:56.085  8818  8818 W rico.skitracker: Accessing hidden field Landroid/app/Activity;->mResultData:Landroid/content/Intent; (unsupported, reflection, allowed)
+05-30 22:40:56.092  1488  1488 D Layer   : reparent to null sequence=211328, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211328
+05-30 22:40:56.092  1488  1488 D Layer   : reparent to null sequence=211329, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211329
+05-30 22:40:56.104  8818  8818 D LifecycleMonitor: Lifecycle status change: it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f in: PAUSED
+05-30 22:40:56.105  8818  8818 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=it.omarkiarafederico.skitracker.view.skimap.MapActivity@165bf5f
+05-30 22:40:56.106  2006  6376 V SensorManager: call sensorServiceCommonInterface name: setScreenShotDisable
+05-30 22:40:56.106  2006  6376 D SensorService: SensorService sensorServiceCommonInterface = setScreenShotDisable
+05-30 22:40:56.106  2006  6376 D SensorServiceExtImpl: sensorServiceCommonInterface funcName = setScreenShotDisable, flag = 0, status = 0
+05-30 22:40:56.106  2006  6376 D OplusUIFirst_FB: com.android.launcher activity event: []
+05-30 22:40:56.106  2006  6376 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.106  2006  6376 D OplusUIFirst_FB: handleParaSwitch com.android.launcher null null 1
+05-30 22:40:56.106  2006  6376 I OplusHansManager : front pkg: com.android.launcher, uid: 10109, prev pkg: it.omarkiarafederico.skitracker, prev uid: 10334
+05-30 22:40:56.106  2006  6376 D OplusUIFirst_FB: com.android.launcher activity event: []
+05-30 22:40:56.106  2006  6376 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.106  2006  6376 D OplusUIFirst_FB: handleParaSwitch com.android.launcher null null 1
+05-30 22:40:56.106  8166  9127 D VRI[Launcher]: dispatchAppVisibility visible:true
+05-30 22:40:56.107  2006  4160 I OplusHansManager : notifyAppGoForeground, uid=10109
+05-30 22:40:56.107  2006  4160 I OplusHansManager : notifyAppGoBackground, uid=10334
+05-30 22:40:56.107  2006  3966 I OplusHansManager : uid=10334, pkg=it.omarkiarafederico.skitracker enter SM
+05-30 22:40:56.107  2006  3966 I OplusHansManager : uid=10334, pkg=it.omarkiarafederico.skitracker R enter(), D stay=2
+05-30 22:40:56.107  3831 18443 D VRI[Launcher]: dispatchAppVisibility visible:true
+05-30 22:40:56.107  2006  3060 I Osense-DecisionMaker: notifySceneToAthenaPolicy: SCENE_LAUNCHER, bundle: Bundle[{prevPkgName=it.omarkiarafederico.skitracker, curUid=10109, curPkgName=com.android.launcher, prevUid=10334}]
+05-30 22:40:56.107  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5543
+05-30 22:40:56.107  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5540
+05-30 22:40:56.107  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5540
+05-30 22:40:56.107  2006  3060 D Osense-DecisionMaker: getCurrentSysStats, availmemMb: 5540
+05-30 22:40:56.108  2006  4024 I OplusResourcePreloadManager: resume pkg: com.android.launcher, uid:10109, prev pkg: it.omarkiarafederico.skitracker, prev uid: 10334
+05-30 22:40:56.108  2006  4159 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppExit, resuming = com.android.launcher, target = it.omarkiarafederico.skitracker, is ResumingFirstStart =  false, is ResumingMultiApp =  false, extensionInfo =  Bundle[{taskId=6, uid=10109}]
+05-30 22:40:56.108  2006  9169 D DCSEX-AppLaunchEventRecorder: onAppSwitch from = it.omarkiarafederico.skitracker to = com.android.launcher
+05-30 22:40:56.108  2006  9169 D DCSEX-AppLaunchEventRecorder: recordExitApp = it.omarkiarafederico.skitracker
+05-30 22:40:56.108  2006  9169 E OplusTrack-ApkInfoUtil: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.os.Bundle.get(java.lang.String)' on a null object reference
+05-30 22:40:56.108  2006  9169 W System.err: java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object android.os.Bundle.get(java.lang.String)' on a null object reference
+05-30 22:40:56.108  2006  9169 W System.err: 	at t6.a.a(ApkInfoUtil.java:6)
+05-30 22:40:56.108  2006  9169 W System.err: 	at m6.b.<init>(TrackEvent.java:10)
+05-30 22:40:56.108  2006  9169 W System.err: 	at m6.a.<init>(CommonBean.java:1)
+05-30 22:40:56.108  2006  9169 W System.err: 	at k6.f.b(OplusTrack.java:1)
+05-30 22:40:56.109  2006  9169 W System.err: 	at q6.b$c.d(AppLaunchEventRecorder.java:9)
+05-30 22:40:56.109  2006  9169 W System.err: 	at q6.b$c.a(AppLaunchEventRecorder.java:7)
+05-30 22:40:56.109  2006  9169 W System.err: 	at q6.a.b(Unknown Source:2)
+05-30 22:40:56.109  2006  9169 W System.err: 	at n6.c.accept(Unknown Source:1)
+05-30 22:40:56.109  2006  9169 W System.err: 	at java.util.concurrent.CopyOnWriteArrayList.forEach(CopyOnWriteArrayList.java:811)
+05-30 22:40:56.109  2006  9169 W System.err: 	at n6.b.run(Unknown Source:1)
+05-30 22:40:56.109  2006  9169 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1137)
+05-30 22:40:56.109  2006  9169 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:637)
+05-30 22:40:56.109  2006  9169 W System.err: 	at java.lang.Thread.run(Thread.java:1012)
+05-30 22:40:56.109  2006  9169 W OplusTrack-TrackEvent: appId is empty
+05-30 22:40:56.110  1488  1488 D OplusLayer: ~Layer() sequence=211329, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211329
+05-30 22:40:56.110  1488  1488 D OplusLayer: ~Layer() sequence=211328, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211328
+05-30 22:40:56.110  3831  3831 D VRI[Launcher]: setWindowStopped stopped:false
+05-30 22:40:56.112  2006  6436 I FocusResolver: updateFocusedWindow,  on display 0, reason: Waiting for window because NOT_FOCUSABLE, result:   FocusedWindows: <none>
+05-30 22:40:56.112  2006  2737 E Athena  : MemoryGuardAction: handleAppChange
+05-30 22:40:56.118  6503  7741 W Battery : ThermalControlUtils: mForegroundPkg=com.android.launcher
+05-30 22:40:56.118  2006  4159 D OplusLatencyOptimizerManager: enter pkg: com.android.launcher isPrevBlackAppTop: false mIsBlackAppTop: false
+05-30 22:40:56.118  2006  4159 V DCSEX-AppSwitchManager: OnAppSwitchObserver: onAppEnter, launchedFrom =  null, target =  com.android.launcher, is firstStart =  false, is multiApp =  false, extensionInfo =  Bundle[{taskId=6, pid=3831, uid=10109, versionCode=13000012}]
+05-30 22:40:56.120  8818  8818 D VRI[MapActivity]: onFocusEvent false
+05-30 22:40:56.121  6503  7741 W Battery : ThermalControllHandler: tempLevel=3,userMode=2,gameUserMode=-1,appType=-1,envTempType=0,appStates=[]
+05-30 22:40:56.121  6503  7741 W Battery : ThermalControllerCenter: mSafetyState=10000
+05-30 22:40:56.121  4119  4152 I Athena  : AthenaDynamicReceiver: pre_app:it.omarkiarafederico.skitracker, next_app:com.android.launcher(10109|3831)
+05-30 22:40:56.122  2006  2451 D OplusUIFirst_FB: it.omarkiarafederico.skitracker moveToBack 8818
+05-30 22:40:56.122  2006  2451 D OplusUIFirst_FB: com.android.launcher moveToTop:[]
+05-30 22:40:56.122  2006  2451 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.122  2006  2451 D OplusUIFirst_FB: com.android.launcher boost hint: 3831
+05-30 22:40:56.122  2006  2451 D OplusUIFirst_FB: handleParaSwitch com.android.launcher null null 0
+05-30 22:40:56.123  2006  2451 D OplusUIFirst_FB: com.android.launcher toForeOps: []
+05-30 22:40:56.123  2006  2451 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.124  6503  7741 W Battery : ThermalControllHandler: tempGear=3,configItemName=common_config
+05-30 22:40:56.124  6503  7739 W Battery : ThermalControllHandler: MSG_THERMAL_CONTROL_CATEGORY_CHANGED
+05-30 22:40:56.125  4777 24356 D OplusAtlas.OplusAtlasEventDispatch: setEvent:atlas_event_on_foreground_activities_changed info:pid:3831,uid:10109,hasForegroundActivities:1
+05-30 22:40:56.125  4777  6655 D OplusAtlas.OplusAudioScene: callback success event:atlas_event_on_foreground_activities_changed eventInfo:pid:3831,uid:10109,hasForegroundActivities:1
+05-30 22:40:56.125  6939  6979 V DeepThinker: ProcessManager: onForegroundActivitiesChanged pid:3831, uid:10109, foregroundActivities:true
+05-30 22:40:56.125  4777  6984 D OplusAtlas.OplusMessageHandler: handleMessage: Msg { when=0 what=2 obj=com.oplus.atlas.OplusAtlasEvent@779d031 target=com.oplus.atlas.OplusMessageHandler$MyHandler }
+05-30 22:40:56.126  2006  2451 D OplusUIFirst_FB: com.coloros.assistantscreen toForeOps: []
+05-30 22:40:56.126  2006  2451 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.129  2006  2451 D OplusUIFirst_FB: com.google.android.googlequicksearchbox toForeOps: []
+05-30 22:40:56.129  2006  2451 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.130  2006  2451 D OplusUIFirst_FB: com.google.android.googlequicksearchbox toForeOps: []
+05-30 22:40:56.130  2006  2451 D OplusUIFirst_FB: List of ThreadOp: size=0 []
+05-30 22:40:56.135  2006  4189 D Theia.NoFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-30 22:40:56.138  3831  3831 D BufferQueueConsumer: [](id:ef700001b17,api:0,p:-1,c:3831) connect: controlledByApp=false
+05-30 22:40:56.138  3831  3831 E IPCThreadState: attemptIncStrongHandle(313): Not supported
+05-30 22:40:56.139  3831  4038 D BufferQueueProducer: [VRI[Launcher]#2737(BLAST Consumer)2737](id:ef700001b17,api:1,p:3831,c:3831) connect: api=1 producerControlledByApp=true
+05-30 22:40:56.139  3831  3831 D VRI[Launcher]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:56.141  8166  8166 D BufferQueueConsumer: [](id:1fe6000000e0,api:0,p:-1,c:8166) connect: controlledByApp=false
+05-30 22:40:56.142  8166  8166 E IPCThreadState: attemptIncStrongHandle(170): Not supported
+05-30 22:40:56.142  8166  8421 D BufferQueueProducer: [VRI[Launcher]#224(BLAST Consumer)224](id:1fe6000000e0,api:1,p:8166,c:8166) connect: api=1 producerControlledByApp=true
+05-30 22:40:56.142  8166  8166 D VRI[Launcher]: registerCallbacksForSync syncBuffer=false
+05-30 22:40:56.143  1488  1488 D Layer   : reparent to null sequence=211332, seq[1], name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211332
+05-30 22:40:56.143  1488  1488 D Layer   : reparent to null sequence=211333, seq[2], name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211333
+05-30 22:40:56.146  8166  8421 D VRI[Launcher]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-30 22:40:56.146  8166  8166 D VRI[Launcher]: draw finished.
+05-30 22:40:56.149  3831  4038 D VRI[Launcher]: Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+05-30 22:40:56.149  3831  3831 D VRI[Launcher]: draw finished.
+05-30 22:40:56.151  3450  3450 D OplusWallpaperServiceHelper: isNightMode is true
+05-30 22:40:56.151  3450  3450 I OplusWallpaperServiceHelper: getDarkModeWallpaperWindowAlpha. nightMode = true
+05-30 22:40:56.156 32049 32073 I [0]DCS-StrategyManager: isNeedUpload: true, type: 1, appID: 0, logTag: , eventID:
+05-30 22:40:56.156   706   706 I hwservicemanager: getTransport: Cannot find entry vendor.qti.hardware.iop@2.0::IIop/default in either framework or device VINTF manifest.
+05-30 22:40:56.157  4210  1817 W lus.appplatform: Large reply transaction of 309252 bytes, interface descriptor com.oplus.epona.IRemoteTransfer, code 1
+05-30 22:40:56.159  1488  1488 D OplusLayer: (211337,com.android.launcher/com.android.launcher.Launcher#211337,com.google.android.googlequicksearchbox:search) setBuffer
+05-30 22:40:56.160  1488  1488 D OplusLayer: (211334,com.android.launcher/com.android.launcher.Launcher#211334,com.android.launcher) setBuffer
+05-30 22:40:56.160  2006 24439 E ANDR-PERF-JNI: UXEngine Trigger - Returning null
+05-30 22:40:56.161  1488  1488 D OplusLayer: ~Layer() sequence=211333, name=Surface(name=ab9d8d1 NavigationBar0)/@0x59b5135 - animation-leash of insets_animation#211333
+05-30 22:40:56.161  1488  1488 D OplusLayer: ~Layer() sequence=211332, name=Surface(name=93ef453 StatusBar)/@0x179481f - animation-leash of insets_animation#211332
+05-30 22:40:56.164  1488  1488 I DispPerfService: updateLayerMask 8
+05-30 22:40:56.174  1488  1488 D OplusLayer: ~Layer() sequence=211341, name=Screenshot Parent#211341
+05-30 22:40:56.175  8818  8845 I TestRunner: finished: testFragmentChange(it.omarkiarafederico.skitracker.MyTest)
