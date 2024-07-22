@@ -9,7 +9,7 @@ A.A. 2020/2021 -> 2022/2023
 
 Computer Science and Engineering - Politecnico di Milano
 
-Da A.A. 2020/2021 -> in corso
+A.A. 2020/2021 -> in corso
 
 **How to contact me**
 
