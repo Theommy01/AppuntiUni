@@ -1,10 +1,14 @@
 **Triennale**
+
 Ingegneria informatica e dell'automazione - Università Politecnica delle Marche
+
 A.A. 2020/2021 -> 2022/2023
 
 
 **Magistrale**
+
 Computer Science and Engineering - Politecnico di Milano
+
 Da A.A. 2020/2021 -> in corso
 
 **How to contact me**
