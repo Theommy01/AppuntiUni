@@ -1,4 +1,14 @@
-📫 How to reach me:
-- FACEBOOK https://www.facebook.com/ommy.01.FB/
-- INSTAGRAM https://www.instagram.com/the_ommy_01/
-- TWITTER  https://twitter.com/omarnaja01
+**Triennale**
+Ingegneria informatica e dell'automazione - Università Politecnica delle Marche
+A.A. 2020/2021 -> 2022/2023
+
+
+**Magistrale**
+Computer Science and Engineering - Politecnico di Milano
+Da A.A. 2020/2021 -> in corso
+
+**How to contact me**
+
+University emails:
+-s10991998@studenti.univpm.it
+-omar.naja@mail.polimi.it (preferred)
