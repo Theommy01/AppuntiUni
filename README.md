@@ -14,5 +14,7 @@ Da A.A. 2020/2021 -> in corso
 **How to contact me**
 
 University emails:
+
 -s10991998@studenti.univpm.it
+
 -omar.naja@mail.polimi.it (preferred)
