@@ -81,7 +81,5 @@ int main(){
     int randomNum = rand() % 101;
     cout << "Random number between 0 and 100: " << randomNum << endl;
     
-    //Let's see how to "switch" between data types
-    
     return 0;   
 }
