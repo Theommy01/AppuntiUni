@@ -33,6 +33,9 @@ int main(){
     cout << "Min long integer: " << min_long_int << endl;
     cout << "Max long integer: " << max_long_int << endl;
     cout << "Default long integer: " << default_long_int << endl;
+
+    //Also, there exist the "unsigned" type for integers, that are the number taken without its sign
+    //In other words, it can used to exploit all the bits for positive numbers
     
     //2) Float. Real numbers
     float min_float = numeric_limits<float>::min();
