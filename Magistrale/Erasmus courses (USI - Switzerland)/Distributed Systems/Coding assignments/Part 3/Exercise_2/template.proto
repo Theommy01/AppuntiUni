@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package cs2;
+
+message Message {
+  int64 fr = 1;
+  int64 to = 2;
+  string msg = 3;
+}
+
+message FastHandshake {
+  int64 requested_id = 1; //ID required from the client
+  int64 assigned_id = 2; //ID assigned fromt the server
+  bool error = 3; //True if the connection is rejected, False by default
+  string error_message = 4;
+}

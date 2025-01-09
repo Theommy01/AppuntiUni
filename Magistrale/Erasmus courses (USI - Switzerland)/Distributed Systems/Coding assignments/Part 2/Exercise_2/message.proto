@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Message {
+    int64 fromr = 1;
+    int64 to = 2;
+    string msg = 3;
+}
+
+//To compile, type 'protoc --python_out=. message.proto' on terminal
+
+// protoc version = 3.12.4
+// protobuf version = 3.12.4
+// python version = 3.11

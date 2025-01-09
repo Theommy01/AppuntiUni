@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message Handshake {
+    int64 id = 1;
+    bool error = 2;
+}
